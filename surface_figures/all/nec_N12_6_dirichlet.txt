@@ -1,0 +1,60 @@
+Dirichlet domains of nec_N12#6 (each picture is recentred at the centre of its domain; the coordinates below are in the frame of the surface, as in nec_N12_6.txt)
+All the points are given approximately (6 decimals) in the Poincare disc model of the picture: O = 0, the
+first edge midpoint of the central polygon on the negative imaginary axis; "distance" is the hyperbolic
+distance from O and "angle" the argument in degrees.
+
+[Dirichlet domain centred at a disc of packing 1]
+centre: +0.000000 +0.000000i   (this is O)
+12 sides, vertex cycles 3+3+3+3, largest distance from the centre to a vertex 1.401994; checks: all sides paired True, vertex cycles with angle sum 2 pi True, area 2 pi |chi| True
+vertex V1: -0.156586 -0.584385i   (distance 1.401994 from O, angle -105.000 deg); distance 1.401994 from the centre
+vertex V2: +0.156586 -0.584385i   (distance 1.401994 from O, angle  -75.000 deg); distance 1.401994 from the centre
+vertex V3: +0.427800 -0.427800i   (distance 1.401994 from O, angle  -45.000 deg); distance 1.401994 from the centre
+vertex V4: +0.584385 -0.156586i   (distance 1.401994 from O, angle  -15.000 deg); distance 1.401994 from the centre
+vertex V5: +0.584385 +0.156586i   (distance 1.401994 from O, angle  +15.000 deg); distance 1.401994 from the centre
+vertex V6: +0.427800 +0.427800i   (distance 1.401994 from O, angle  +45.000 deg); distance 1.401994 from the centre
+vertex V7: +0.156586 +0.584385i   (distance 1.401994 from O, angle  +75.000 deg); distance 1.401994 from the centre
+vertex V8: -0.156586 +0.584385i   (distance 1.401994 from O, angle +105.000 deg); distance 1.401994 from the centre
+vertex V9: -0.427800 +0.427800i   (distance 1.401994 from O, angle +135.000 deg); distance 1.401994 from the centre
+vertex V10: -0.584385 +0.156586i   (distance 1.401994 from O, angle +165.000 deg); distance 1.401994 from the centre
+vertex V11: -0.584385 -0.156586i   (distance 1.401994 from O, angle -165.000 deg); distance 1.401994 from the centre
+vertex V12: -0.427800 -0.427800i   (distance 1.401994 from O, angle -135.000 deg); distance 1.401994 from the centre
+side 1~: from V1 to V2, paired with the side from V3 to V4 by kappa^-1, kappa = abcacaa
+side 2: from V2 to V3, paired with the side from V9 to V10 by kappa^-1, kappa = caab(ca)^4
+side 1~: from V3 to V4, paired with the side from V1 to V2 by kappa^-1, kappa = cacaaba
+side 3~: from V4 to V5, paired with the side from V10 to V11 by kappa^-1, kappa = (ca)^3ab(ca)^9a
+side 4~: from V5 to V6, paired with the side from V7 to V8 by kappa^-1, kappa = (ca)^4ab(ca)^6a
+side 5: from V6 to V7, paired with the side from V11 to V12 by kappa^-1, kappa = (ca)^5abcaca
+side 4~: from V7 to V8, paired with the side from V5 to V6 by kappa^-1, kappa = (ca)^6ab(ca)^4a
+side 6~: from V8 to V9, paired with the side from V12 to V1 by kappa^-1, kappa = (ca)^7ab(ca)^11a
+side 2: from V9 to V10, paired with the side from V2 to V3 by kappa^-1, kappa = (ca)^8ab(ca)^11
+side 3~: from V10 to V11, paired with the side from V4 to V5 by kappa^-1, kappa = (ca)^9ab(ca)^3a
+side 5: from V11 to V12, paired with the side from V6 to V7 by kappa^-1, kappa = (ca)^10ab(ca)^7
+side 6~: from V12 to V1, paired with the side from V8 to V9 by kappa^-1, kappa = (ca)^11ab(ca)^7a
+
+[Dirichlet domain centred at a disc of packing 2]
+centre: -0.427800 +0.000000i   (distance 0.914401 from O, angle +180.000 deg)
+12 sides, vertex cycles 3+3+3+3, largest distance from the centre to a vertex 1.401994; checks: all sides paired True, vertex cycles with angle sum 2 pi True, area 2 pi |chi| True
+vertex V1: -0.760969 -0.243897i   (distance 2.192229 from O, angle -162.229 deg); distance 1.401994 from the centre
+vertex V2: -0.640843 -0.397544i   (distance 1.964954 from O, angle -148.187 deg); distance 1.401994 from the centre
+vertex V3: -0.427800 -0.511714i   (distance 1.610570 from O, angle -129.896 deg); distance 1.401994 from the centre
+vertex V4: -0.111693 -0.498611i   (distance 1.128077 from O, angle -102.626 deg); distance 1.401994 from the centre
+vertex V5: +0.188628 -0.225628i   (distance 0.606075 from O, angle  -50.104 deg); distance 1.401994 from the centre
+vertex V6: +0.188628 +0.225628i   (distance 0.606075 from O, angle  +50.104 deg); distance 1.401994 from the centre
+vertex V7: -0.111693 +0.498611i   (distance 1.128077 from O, angle +102.626 deg); distance 1.401994 from the centre
+vertex V8: -0.427800 +0.511714i   (distance 1.610570 from O, angle +129.896 deg); distance 1.401994 from the centre
+vertex V9: -0.640843 +0.397544i   (distance 1.964954 from O, angle +148.187 deg); distance 1.401994 from the centre
+vertex V10: -0.760969 +0.243897i   (distance 2.192229 from O, angle +162.229 deg); distance 1.401994 from the centre
+vertex V11: -0.814123 +0.081640i   (distance 2.302734 from O, angle +174.274 deg); distance 1.401994 from the centre
+vertex V12: -0.814123 -0.081640i   (distance 2.302734 from O, angle -174.274 deg); distance 1.401994 from the centre
+side 1: from V1 to V2, paired with the side from V6 to V7 by kappa^-1, kappa = ab(ca)^7
+side 2~: from V2 to V3, paired with the side from V12 to V1 by kappa^-1, kappa = caab(ca)^11a
+side 3~: from V3 to V4, paired with the side from V7 to V8 by kappa^-1, kappa = cacaab(ca)^6a
+side 4: from V4 to V5, paired with the side from V9 to V10 by kappa^-1, kappa = (ca)^3ab(ca)^4
+side 5~: from V5 to V6, paired with the side from V11 to V12 by kappa^-1, kappa = (ca)^4ab(ca)^10a
+side 1: from V6 to V7, paired with the side from V1 to V2 by kappa^-1, kappa = (ca)^5ab
+side 3~: from V7 to V8, paired with the side from V3 to V4 by kappa^-1, kappa = (ca)^6abcacaa
+side 6~: from V8 to V9, paired with the side from V10 to V11 by kappa^-1, kappa = (ca)^7ab(ca)^9a
+side 4: from V9 to V10, paired with the side from V4 to V5 by kappa^-1, kappa = (ca)^8ab(ca)^9
+side 6~: from V10 to V11, paired with the side from V8 to V9 by kappa^-1, kappa = (ca)^9ab(ca)^7a
+side 5~: from V11 to V12, paired with the side from V5 to V6 by kappa^-1, kappa = (ca)^10ab(ca)^4a
+side 2~: from V12 to V1, paired with the side from V2 to V3 by kappa^-1, kappa = (ca)^11abcaa

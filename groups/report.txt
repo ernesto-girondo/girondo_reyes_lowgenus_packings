@@ -1,0 +1,106 @@
+=== 1. Robustness of the computation (Section 4) ===
+nec_N12    surfaces= 11 double covers=11 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+nec_N9     surfaces=  4 double covers= 4 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+nec_N8     surfaces= 23 double covers=23 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+nec_N7     surfaces= 12 double covers=12 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+fuchs_N18  surfaces=  9 double covers= 0 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+fuchs_N12  surfaces= 25 double covers= 0 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+fuchs_N10  surfaces= 20 double covers= 0 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+fuchs_N9   surfaces= 37 double covers= 0 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+fuchs_N8   surfaces= 77 double covers= 0 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+fuchs_N7   surfaces=155 double covers= 0 errors=0 alphas not verified=0 (covers: 0) all rejections confirmed=True
+total: 423 surfaces (373 of Table 2 and 50 double covers)
+
+=== 2. Non-orientable surfaces of genus 3: number of extremal k-packings (Theorem 6.1) ===
+notation m(n): n surfaces have exactly m packings
+  N= 7 k=6  surfaces=12  packings: 1(3)  2(9)
+  N= 8 k=3  surfaces=23  packings: 1(8)  2(15)
+  N= 9 k=2  surfaces= 4  packings: 1(1)  2(3)
+  N=12 k=1  surfaces=11  packings: 1(1)  2(10)
+
+=== 3. Canonical double covers (Theorem 6.2) ===
+  N= 7: double cover with the same number of packings: all 12
+        induced group of the cover = twice the induced group of X: 11 of 12
+        exception: nec_N7#4  |induced on X| = 2, |induced on the cover nec_N7#4+| = 12
+  N= 8: double cover with the same number of packings: all 23
+        induced group of the cover = twice the induced group of X: 21 of 23
+        exception: nec_N8#4  |induced on X| = 2, |induced on the cover nec_N8#4+| = 12
+        exception: nec_N8#12  |induced on X| = 2, |induced on the cover nec_N8#12+| = 12
+  N= 9: double cover with the same number of packings: all 4
+        induced group of the cover = twice the induced group of X: 4 of 4
+  N=12: double cover with the same number of packings: all 11
+        induced group of the cover = twice the induced group of X: 10 of 11
+        exception: nec_N12#3  |induced on X| = 2, |induced on the cover nec_N12#3+| = 12
+
+=== 4. Orientable surfaces of genus 2: conjugacy classes (Table 2) ===
+  N=18 k= 1  classes in Delta:   9   classes in Delta^pm:   8   with induced anticonformal symmetry:  7   (splitting consistent: True)
+  N=12 k= 2  classes in Delta:  25   classes in Delta^pm:  20   with induced anticonformal symmetry: 15   (splitting consistent: True)
+  N=10 k= 3  classes in Delta:  20   classes in Delta^pm:  15   with induced anticonformal symmetry: 10   (splitting consistent: True)
+  N= 9 k= 4  classes in Delta:  37   classes in Delta^pm:  24   with induced anticonformal symmetry: 11   (splitting consistent: True)
+  N= 8 k= 6  classes in Delta:  77   classes in Delta^pm:  57   with induced anticonformal symmetry: 37   (splitting consistent: True)
+  N= 7 k=12  classes in Delta: 155   classes in Delta^pm:  90   with induced anticonformal symmetry: 25   (splitting consistent: True)
+
+=== 5. Orientable surfaces of genus 2: number of extremal k-packings (Theorem 6.3) ===
+notation m(n): n classes have exactly m packings
+  N=18 k= 1  per Delta^pm-class: 1(1)  2(6)  4(1)    per Delta-class: 1(1)  2(7)  4(1)
+  N=12 k= 2  per Delta^pm-class: 1(5)  2(15)    per Delta-class: 1(6)  2(19)
+  N=10 k= 3  per Delta^pm-class: 1(4)  2(11)    per Delta-class: 1(6)  2(14)
+  N= 9 k= 4  per Delta^pm-class: 1(8)  2(13)  4(1)  5(2)    per Delta-class: 1(12)  2(22)  4(1)  5(2)
+  N= 8 k= 6  per Delta^pm-class: 1(33)  2(24)    per Delta-class: 1(49)  2(28)
+  N= 7 k=12  per Delta^pm-class: 1(60)  2(30)    per Delta-class: 1(110)  2(45)
+  (for N=9 the two classes with 5 packings, fuchs_N9#36 and #37, are the same surface X0: see identify2.py)
+
+=== 6. Fuchsian classes with induced anticonformal symmetry that are not double covers (Section 6.2) ===
+  N=12: 11 non-orientable surfaces -> 11 distinct Fuchsian classes (all in the list: True); classes with induced anticonformal symmetry: 15, of which double covers: 11, not double covers: 4
+      fuchs_N12#7: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2, (4, False): 2}
+      fuchs_N12#19: packings=2 |induced|=2; induced anticonformal automorphisms (order, has fixed points): {(2, True): 1}
+      fuchs_N12#20: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2, (4, False): 2}
+      fuchs_N12#25: packings=1 |induced|=16; induced anticonformal automorphisms (order, has fixed points): {(2, True): 4, (8, False): 4}
+  N= 9: 4 non-orientable surfaces -> 4 distinct Fuchsian classes (all in the list: True); classes with induced anticonformal symmetry: 11, of which double covers: 4, not double covers: 7
+      fuchs_N9#1: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N9#5: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N9#21: packings=4 |induced|=2; induced anticonformal automorphisms (order, has fixed points): {(2, True): 1}
+      fuchs_N9#29: packings=2 |induced|=2; induced anticonformal automorphisms (order, has fixed points): {(2, True): 1}
+      fuchs_N9#31: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2, (4, False): 2}
+      fuchs_N9#36: packings=5 |induced|=6; induced anticonformal automorphisms (order, has fixed points): {(2, True): 3}
+      fuchs_N9#37: packings=5 |induced|=24; induced anticonformal automorphisms (order, has fixed points): {(2, True): 6, (4, False): 2, (12, False): 4}
+  N= 8: 23 non-orientable surfaces -> 23 distinct Fuchsian classes (all in the list: True); classes with induced anticonformal symmetry: 37, of which double covers: 23, not double covers: 14
+      fuchs_N8#19: packings=2 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#20: packings=2 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#24: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#30: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N8#40: packings=2 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#43: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#45: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 4}
+      fuchs_N8#47: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N8#50: packings=2 |induced|=2; induced anticonformal automorphisms (order, has fixed points): {(2, True): 1}
+      fuchs_N8#54: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2, (4, False): 2}
+      fuchs_N8#60: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#62: packings=2 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N8#69: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 4}
+      fuchs_N8#77: packings=1 |induced|=96; induced anticonformal automorphisms (order, has fixed points): {(2, True): 18, (4, False): 2, (8, False): 12, (12, False): 16}
+  N= 7: 12 non-orientable surfaces -> 12 distinct Fuchsian classes (all in the list: True); classes with induced anticonformal symmetry: 25, of which double covers: 12, not double covers: 13
+      fuchs_N7#10: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N7#32: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2, (4, False): 2}
+      fuchs_N7#47: packings=2 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N7#48: packings=2 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N7#56: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N7#61: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N7#84: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2}
+      fuchs_N7#90: packings=2 |induced|=2; induced anticonformal automorphisms (order, has fixed points): {(2, True): 1}
+      fuchs_N7#94: packings=1 |induced|=8; induced anticonformal automorphisms (order, has fixed points): {(2, True): 2, (4, False): 2}
+      fuchs_N7#96: packings=1 |induced|=4; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2}
+      fuchs_N7#148: packings=2 |induced|=12; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2, (12, False): 4}
+      fuchs_N7#150: packings=2 |induced|=12; induced anticonformal automorphisms (order, has fixed points): {(4, False): 2, (12, False): 4}
+      fuchs_N7#153: packings=2 |induced|=2; induced anticonformal automorphisms (order, has fixed points): {(2, True): 1}
+
+=== 7. k=1, genus 2 (N=18), surface by surface (Remark 6.7) ===
+  fuchs_N18#1: discs=2 |induced|=4 anticonformal=True  distances from O of the other disc centres: [1.719107]
+  fuchs_N18#2: discs=1 |induced|=4 anticonformal=True  distances from O of the other disc centres: []
+  fuchs_N18#3: discs=2 |induced|=4 anticonformal=True  distances from O of the other disc centres: [1.719107]
+  fuchs_N18#4: discs=2 |induced|=2 anticonformal=True  distances from O of the other disc centres: [0.777654]
+  fuchs_N18#5: discs=2 |induced|=2 anticonformal=True  distances from O of the other disc centres: [1.212306]
+  fuchs_N18#6: discs=2 |induced|=2 anticonformal=False  distances from O of the other disc centres: [1.719107]
+  fuchs_N18#7: discs=2 |induced|=2 anticonformal=False  distances from O of the other disc centres: [1.719107]
+  fuchs_N18#8: discs=2 |induced|=2 anticonformal=True  distances from O of the other disc centres: [1.28738]
+  fuchs_N18#9: discs=4 |induced|=6 anticonformal=True  distances from O of the other disc centres: [1.855077, 1.855077, 1.855077]

@@ -1,0 +1,20 @@
+nec_N12    surfaces= 11 (+11 double covers)  with >=2 packings= 20  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+nec_N9     surfaces=  4 (+ 4 double covers)  with >=2 packings=  6  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+nec_N8     surfaces= 23 (+23 double covers)  with >=2 packings= 30  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+nec_N7     surfaces= 12 (+12 double covers)  with >=2 packings= 18  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+fuchs_N18  surfaces=  9 (+ 0 double covers)  with >=2 packings=  8  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+fuchs_N12  surfaces= 25 (+ 0 double covers)  with >=2 packings= 19  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+fuchs_N10  surfaces= 20 (+ 0 double covers)  with >=2 packings= 14  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+fuchs_N9   surfaces= 37 (+ 0 double covers)  with >=2 packings= 25  isometry group not transitive on packings: ['fuchs_N9#36 (4 of 5 packings in the orbit of the packing centred at O)', 'fuchs_N9#37 (1 of 5 packings in the orbit of the packing centred at O)']
+           different classes giving isometric surfaces: [('fuchs_N9#36', 'fuchs_N9#37')]
+fuchs_N8   surfaces= 77 (+ 0 double covers)  with >=2 packings= 28  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none
+fuchs_N7   surfaces=155 (+ 0 double covers)  with >=2 packings= 45  isometry group not transitive on packings: none
+           different classes giving isometric surfaces: none

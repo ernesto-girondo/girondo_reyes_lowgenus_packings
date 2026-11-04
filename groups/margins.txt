@@ -1,0 +1,17 @@
+nec_N12    done
+nec_N9     done
+nec_N8     done
+nec_N7     done
+fuchs_N18  done
+fuchs_N12  done
+fuchs_N10  done
+fuchs_N9   done
+fuchs_N8   done
+fuchs_N7   done
+
+points examined in Step 3: 6860 (of which rejected by the displacement test: 5996)
+largest deviation treated as an equality (accepted candidates): 1.77e-19  (fuchs_N7#111)
+smallest gap that caused a rejection in Step 3:                  6.35e-6  (nec_N8#6)
+candidates rejected in Step 4: 70; smallest gap of their confirmation by an element of K (a side pairing or a product of two): 0.00271  (fuchs_N7#71)
+   confirmed by a product of two side pairings: 70, by a single side pairing: 0; with a list of admissible distances longer than the one of the search: 10
+threshold used in the program: 1.0e-8; working precision: 40 significant digits

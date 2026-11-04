@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these programs or data, please cite them and the paper."
+title: "Code and data for 'Extremal disc packings in compact hyperbolic surfaces of minimal genus'"
+authors:
+  - family-names: Girondo
+    given-names: Ernesto
+    affiliation: "Universidad Autónoma de Madrid and ICMAT"
+  - family-names: Reyes
+    given-names: Cristian
+    affiliation: "Universidad San Sebastián"
+type: software
+license: MIT

@@ -1,0 +1,71 @@
+Step 3 of the search for fuchs_N8#64 (the picture fuchs_N8_64_edcycles.pdf). Points in the Poincare disc model of the
+paper: O = 0, the first edge midpoint of the central polygon on the negative imaginary axis.
+
+Step 2. Admissible distances up to D = 4.935448 (13 values):
+   d_0   = 1.52857091948
+   d_1   = 2.44845244768
+   d_2   = 2.91403538772
+   d_3   = 3.05714183896
+   d_4   = 3.63158173756
+   d_5   = 3.94034614433
+   d_6   = 4.21842482026
+   d_7   = 4.35137527822
+   d_8   = 4.43573990537
+   d_9   = 4.58571275844
+   d_10  = 4.74109707464
+   d_11  = 4.87554987915
+   d_12  = 4.89690489536
+
+Step 3. The side pairings used (the two that move O the least among those with different axes):
+   s_1 = cacacb(ca)^6cb(ac)^4bcac   (hyperbolic, translation length 2.448452448, moves O by 2.914035388)
+      ED-cycles b_1(d_i) for d_i <= 4.835449: i = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (empty for i = 0, because d_i is smaller than what s_1 moves any point)
+   s_2 = (ca)^4cb(ca)^5cbacacbc   (hyperbolic, translation length 2.448452448, moves O by 2.914035388)
+      ED-cycles b_2(d_i) for d_i <= 4.835449: i = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (empty for i = 0, because d_i is smaller than what s_2 moves any point)
+   search disc: centred at O, radius 0.9607063042 (circumradius of the polygon + 0.1)
+
+Intersection points of an ED-cycle of s_1 and one of s_2 in the search disc: 15, of which 1 pass the displacement test (candidates).
+#1   +0.13610526 +0.40036076i  (distance 0.90234739 from O, angle  +71.2242 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 6)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.229781832, which is not an admissible distance
+#2   +0.40036076 +0.13610526i  (distance 0.90234739 from O, angle  +18.7758 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 6)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.229781832, which is not an admissible distance
+#3   +0.00000000 +0.00000000i  (this is O)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 2)
+      candidate: centre of a disc of packing 1 (verified exactly)
+#4   +0.16941736 -0.12830875i  (distance 0.43162123 from O, angle  -37.1386 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.220047226, which is not an admissible distance
+#5   -0.12830875 +0.16941736i  (distance 0.43162123 from O, angle +127.1386 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.220047226, which is not an admissible distance
+#6   +0.38580263 -0.21013687i  (distance 0.94277321 from O, angle  -28.5760 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 4)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.746080486, which is not an admissible distance
+#7   -0.21013687 +0.38580263i  (distance 0.94277321 from O, angle +118.5760 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 4)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.746080486, which is not an admissible distance
+#8   +0.12830875 -0.16941736i  (distance 0.43162123 from O, angle  -52.8614 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.220047226, which is not an admissible distance
+#9   -0.16941736 +0.12830875i  (distance 0.43162123 from O, angle +142.8614 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.220047226, which is not an admissible distance
+#10  +0.20787885 -0.20787885i  (distance 0.60584560 from O, angle  -45.0000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.37688949, which is not an admissible distance
+#11  -0.20787885 +0.20787885i  (distance 0.60584560 from O, angle +135.0000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.37688949, which is not an admissible distance
+#12  +0.21013687 -0.38580263i  (distance 0.94277321 from O, angle  -61.4240 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (4, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.746080486, which is not an admissible distance
+#13  -0.38580263 +0.21013687i  (distance 0.94277321 from O, angle +151.4240 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (4, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.746080486, which is not an admissible distance
+#14  -0.13610526 -0.40036076i  (distance 0.90234739 from O, angle -108.7758 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (6, 1)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.229781832, which is not an admissible distance
+#15  -0.40036076 -0.13610526i  (distance 0.90234739 from O, angle -161.2242 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (6, 1)
+      discarded: the side pairing (ca)^6cb(ac)^4bcacac moves it by 3.229781832, which is not an admissible distance

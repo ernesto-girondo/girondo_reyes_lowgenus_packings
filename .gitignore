@@ -1,0 +1,6 @@
+# files that are not part of the distribution
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+groups_distributed/

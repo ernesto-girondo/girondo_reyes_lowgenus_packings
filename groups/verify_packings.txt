@@ -1,0 +1,12 @@
+nec_N12     22 surfaces: field OK, side pairings in K and generating K, 42 packings verified
+nec_N9       8 surfaces: field OK, side pairings in K and generating K, 14 packings verified
+nec_N8      46 surfaces: field OK, side pairings in K and generating K, 76 packings verified
+nec_N7      24 surfaces: field OK, side pairings in K and generating K, 42 packings verified
+fuchs_N18    9 surfaces: field OK, side pairings in K and generating K, 19 packings verified
+fuchs_N12   25 surfaces: field OK, side pairings in K and generating K, 44 packings verified
+fuchs_N10   20 surfaces: field OK, side pairings in K and generating K, 34 packings verified
+fuchs_N9    37 surfaces: field OK, side pairings in K and generating K, 70 packings verified
+fuchs_N8    77 surfaces: field OK, side pairings in K and generating K, 105 packings verified
+fuchs_N7   155 surfaces: field OK, side pairings in K and generating K, 200 packings verified
+nec_N18    296 surfaces: field OK, side pairings in K and generating K, 359 packings verified
+packings verified: 1005

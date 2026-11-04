@@ -1,0 +1,35 @@
+Step 3 of the search for fuchs_N10#10 (the picture fuchs_N10_10_edcycles.pdf). Points in the Poincare disc model of the
+paper: O = 0, the first edge midpoint of the central polygon on the negative imaginary axis.
+
+Step 2. Admissible distances up to D = 5.2772142 (7 values):
+   d_0   = 2.12255012381
+   d_1   = 3.23384333502
+   d_2   = 3.83598609126
+   d_3   = 4.14771392724
+   d_4   = 4.24510024762
+   d_5   = 4.6789441412
+   d_6   = 5.12968960873
+
+Step 3. The side pairings used (the two that move O the least among those with different axes):
+   s_1 = cbcb(ac)^4   (hyperbolic, translation length 2.122550124, moves O by 2.122550124)
+      ED-cycles b_1(d_i) for d_i <= 4.6772152: i = 0, 1, 2, 3, 4
+   s_2 = cacacb(ac)^9   (hyperbolic, translation length 1.992768996, moves O by 2.122550124)
+      ED-cycles b_2(d_i) for d_i <= 4.6772152: i = 0, 1, 2, 3, 4
+   search disc: centred at O, radius 1.277332027 (circumradius of the polygon + 0.1)
+
+Intersection points of an ED-cycle of s_1 and one of s_2 in the search disc: 5, of which 3 pass the displacement test (candidates).
+#1   -0.00000000 -0.48586827i  (distance 1.06127506 from O, angle  -90.0000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 0)
+      candidate: centre of a disc of packing 2 (verified exactly)
+#2   +0.00000000 +0.00000000i  (this is O)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 0)
+      candidate: centre of a disc of packing 1 (verified exactly)
+#3   -0.00000000 +0.48586827i  (distance 1.06127506 from O, angle  +90.0000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 1)
+      candidate: centre of a disc of packing 2 (verified exactly)
+#4   +0.55460833 -0.08292174i  (distance 1.26792026 from O, angle   -8.5035 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 0)
+      discarded: the side pairing cacb(ac)^6 moves it by 1.992771422, which is not an admissible distance
+#5   -0.55744831 -0.01440066i  (distance 1.25878652 from O, angle -178.5202 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 1)
+      discarded: the side pairing cacb(ac)^6 moves it by 3.290880042, which is not an admissible distance

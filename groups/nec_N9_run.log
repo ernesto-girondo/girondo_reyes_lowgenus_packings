@@ -1,0 +1,5 @@
+nec_N9#1: k=2 ori=False packings=1 aut=2 unc=0 rej=1/True  cover: packings=1 aut=4
+nec_N9#2: k=2 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N9#3: k=2 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N9#4: k=2 ori=False packings=2 aut=1 unc=0 rej=0/True  cover: packings=2 aut=2
+DONE

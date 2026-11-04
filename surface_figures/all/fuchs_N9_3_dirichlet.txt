@@ -1,0 +1,76 @@
+Dirichlet domains of fuchs_N9#3 (each picture is recentred at the centre of its domain; the coordinates below are in the frame of the surface, as in fuchs_N9_3.txt)
+All the points are given approximately (6 decimals) in the Poincare disc model of the picture: O = 0, the
+first edge midpoint of the central polygon on the negative imaginary axis; "distance" is the hyperbolic
+distance from O and "angle" the argument in degrees.
+
+[Dirichlet domain centred at a disc of packing 1]
+centre: +0.000000 +0.000000i   (this is O)
+16 sides, vertex cycles 4+3+3+3+3, largest distance from the centre to a vertex 2.759363; checks: all sides paired True, vertex cycles with angle sum 2 pi True, area 2 pi |chi| True
+vertex V1: +0.000000 -0.729444i   (distance 1.855077 from O, angle  -90.000 deg); distance 1.855077 from the centre
+vertex V2: +0.873449 -0.112452i   (distance 2.757388 from O, angle   -7.336 deg); distance 2.757388 from the centre
+vertex V3: +0.874537 -0.105516i   (distance 2.759363 from O, angle   -6.880 deg); distance 2.759363 from the centre
+vertex V4: +0.878224 +0.052976i   (distance 2.749946 from O, angle   +3.452 deg); distance 2.749946 from the centre
+vertex V5: +0.754839 +0.320340i   (distance 2.313636 from O, angle  +22.995 deg); distance 2.313636 from the centre
+vertex V6: +0.745335 +0.469495i   (distance 2.759363 from O, angle  +32.207 deg); distance 2.759363 from the centre
+vertex V7: +0.741384 +0.475299i   (distance 2.757388 from O, angle  +32.664 deg); distance 2.757388 from the centre
+vertex V8: +0.736060 +0.481976i   (distance 2.749946 from O, angle  +33.217 deg); distance 2.749946 from the centre
+vertex V9: +0.638453 +0.606900i   (distance 2.759363 from O, angle  +43.549 deg); distance 2.759363 from the centre
+vertex V10: +0.496222 +0.652813i   (distance 2.313636 from O, angle  +52.760 deg); distance 2.313636 from the centre
+vertex V11: +0.249485 +0.685453i   (distance 1.855077 from O, angle  +70.000 deg); distance 1.855077 from the centre
+vertex V12: -0.249485 +0.685453i   (distance 1.855077 from O, angle +110.000 deg); distance 1.855077 from the centre
+vertex V13: -0.496222 +0.652813i   (distance 2.313636 from O, angle +127.240 deg); distance 2.313636 from the centre
+vertex V14: -0.736060 +0.481976i   (distance 2.749946 from O, angle +146.783 deg); distance 2.749946 from the centre
+vertex V15: -0.741384 +0.475299i   (distance 2.757388 from O, angle +147.336 deg); distance 2.757388 from the centre
+vertex V16: -0.468878 -0.558787i   (distance 1.855077 from O, angle -130.000 deg); distance 1.855077 from the centre
+side 1: from V1 to V2, paired with the side from V15 to V16 by kappa^-1, kappa = caabcaca
+side 2: from V2 to V3, paired with the side from V6 to V7 by kappa^-1, kappa = cacaab(ca)^5ab(ca)^4ab(ca)^6
+side 3: from V3 to V4, paired with the side from V8 to V9 by kappa^-1, kappa = cacaab(ca)^6ab(ca)^3ab(ca)^6
+side 4: from V4 to V5, paired with the side from V13 to V14 by kappa^-1, kappa = cacaab(ca)^7ab(ca)^6ab(ca)^3
+side 5: from V5 to V6, paired with the side from V9 to V10 by kappa^-1, kappa = (ca)^3ab(ca)^3ab(ca)^7ab(ca)^5
+side 2: from V6 to V7, paired with the side from V2 to V3 by kappa^-1, kappa = (ca)^3ab(ca)^5ab(ca)^4ab(ca)^7
+side 6: from V7 to V8, paired with the side from V14 to V15 by kappa^-1, kappa = (ca)^3ab(ca)^5ab(ca)^5ab(ca)^3
+side 3: from V8 to V9, paired with the side from V3 to V4 by kappa^-1, kappa = (ca)^3ab(ca)^6ab(ca)^3ab(ca)^7
+side 5: from V9 to V10, paired with the side from V5 to V6 by kappa^-1, kappa = (ca)^3ab(ca)^7ab(ca)^5ab(ca)^6
+side 7: from V10 to V11, paired with the side from V12 to V13 by kappa^-1, kappa = (ca)^4ab(ca)^4ab(ca)^4
+side 8: from V11 to V12, paired with the side from V16 to V1 by kappa^-1, kappa = (ca)^4ab(ca)^7ab
+side 7: from V12 to V13, paired with the side from V10 to V11 by kappa^-1, kappa = (ca)^5ab(ca)^5ab(ca)^5
+side 4: from V13 to V14, paired with the side from V4 to V5 by kappa^-1, kappa = (ca)^5ab(ca)^7ab(ca)^6ab(ca)^6
+side 6: from V14 to V15, paired with the side from V7 to V8 by kappa^-1, kappa = (ca)^6ab(ca)^4ab(ca)^4ab(ca)^6
+side 1: from V15 to V16, paired with the side from V1 to V2 by kappa^-1, kappa = (ca)^7ab(ca)^8
+side 8: from V16 to V1, paired with the side from V11 to V12 by kappa^-1, kappa = abcacaab(ca)^5
+
+[Dirichlet domain centred at a disc of packing 2]
+centre: +0.276691 -0.180252i   (distance 0.686161 from O, angle  -33.082 deg)
+16 sides, vertex cycles 3+3+4+3+3, largest distance from the centre to a vertex 2.511773; checks: all sides paired True, vertex cycles with angle sum 2 pi True, area 2 pi |chi| True
+vertex V1: +0.477774 +0.627065i   (distance 2.134058 from O, angle  +52.695 deg); distance 2.313636 from the centre
+vertex V2: +0.340272 +0.640490i   (distance 1.837339 from O, angle  +62.020 deg); distance 2.116045 from the centre
+vertex V3: -0.098529 +0.558787i   (distance 1.287380 from O, angle +100.000 deg); distance 1.855077 from the centre
+vertex V4: -0.306038 -0.618055i   (distance 1.694672 from O, angle -116.343 deg); distance 1.855077 from the centre
+vertex V5: -0.032099 -0.809515i   (distance 2.254939 from O, angle  -92.271 deg); distance 2.116045 from the centre
+vertex V6: +0.137441 -0.779469i   (distance 2.150834 from O, angle  -80.000 deg); distance 1.855077 from the centre
+vertex V7: +0.702818 -0.484955i   (distance 2.540708 from O, angle  -34.606 deg); distance 1.855077 from the centre
+vertex V8: +0.786970 -0.404285i   (distance 2.794373 from O, angle  -27.191 deg); distance 2.116045 from the centre
+vertex V9: +0.830253 -0.355428i   (distance 2.977920 from O, angle  -23.176 deg); distance 2.313636 from the centre
+vertex V10: +0.897968 -0.116168i   (distance 3.003354 from O, angle   -7.371 deg); distance 2.454035 from the centre
+vertex V11: +0.904876 -0.083083i   (distance 3.039825 from O, angle   -5.246 deg); distance 2.511773 from the centre
+vertex V12: +0.895117 +0.033167i   (distance 2.900388 from O, angle   +2.122 deg); distance 2.454035 from the centre
+vertex V13: +0.778708 +0.333696i   (distance 2.492263 from O, angle  +23.196 deg); distance 2.313636 from the centre
+vertex V14: +0.751663 +0.424300i   (distance 2.611142 from O, angle  +29.444 deg); distance 2.511773 from the centre
+vertex V15: +0.715013 +0.459409i   (distance 2.511462 from O, angle  +32.721 deg); distance 2.454035 from the centre
+vertex V16: +0.591246 +0.592016i   (distance 2.420088 from O, angle  +45.037 deg); distance 2.511773 from the centre
+side 1: from V1 to V2, paired with the side from V8 to V9 by kappa^-1, kappa = (ca)^3ab(ca)^6ab(ca)^7ab(ca)^8
+side 2: from V2 to V3, paired with the side from V4 to V5 by kappa^-1, kappa = (ca)^4ab(ca)^3ab(ca)^3
+side 3: from V3 to V4, paired with the side from V6 to V7 by kappa^-1, kappa = (ca)^5abca
+side 2: from V4 to V5, paired with the side from V2 to V3 by kappa^-1, kappa = (ca)^6ab(ca)^6ab(ca)^5
+side 4: from V5 to V6, paired with the side from V7 to V8 by kappa^-1, kappa = (ca)^7ab(ca)^4ab
+side 3: from V6 to V7, paired with the side from V3 to V4 by kappa^-1, kappa = (ca)^8ab(ca)^4
+side 4: from V7 to V8, paired with the side from V5 to V6 by kappa^-1, kappa = ab(ca)^5abcaca
+side 1: from V8 to V9, paired with the side from V1 to V2 by kappa^-1, kappa = ab(ca)^6ab(ca)^7ab(ca)^5
+side 5: from V9 to V10, paired with the side from V12 to V13 by kappa^-1, kappa = caab(ca)^4ab(ca)^7
+side 6: from V10 to V11, paired with the side from V14 to V15 by kappa^-1, kappa = caab(ca)^6ab(ca)^6ab(ca)^6
+side 7: from V11 to V12, paired with the side from V15 to V16 by kappa^-1, kappa = caab(ca)^7ab(ca)^5ab(ca)^6
+side 5: from V12 to V13, paired with the side from V9 to V10 by kappa^-1, kappa = cacaab(ca)^5ab(ca)^8
+side 8: from V13 to V14, paired with the side from V16 to V1 by kappa^-1, kappa = cacaab(ca)^7ab(ca)^3ab(ca)^6
+side 6: from V14 to V15, paired with the side from V10 to V11 by kappa^-1, kappa = (ca)^3ab(ca)^3ab(ca)^3ab(ca)^8
+side 7: from V15 to V16, paired with the side from V11 to V12 by kappa^-1, kappa = (ca)^3ab(ca)^3ab(ca)^7ab(ca)^7
+side 8: from V16 to V1, paired with the side from V13 to V14 by kappa^-1, kappa = (ca)^3ab(ca)^5ab(ca)^7ab(ca)^6

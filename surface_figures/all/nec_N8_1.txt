@@ -1,0 +1,71 @@
+nec_N8#1:  N = 8, k = 3, non-orientable, 2 extremal 3-packings
+All the points are given approximately (6 decimals) in the Poincare disc model of the picture: O = 0, the
+first edge midpoint of the central polygon on the negative imaginary axis; "distance" is the hyperbolic
+distance from O and "angle" the argument in degrees.
+
+[fundamental domain of Step 1: polygons P1, ..., P3]
+polygon P1: centre +0.000000 +0.000000i   (this is O)
+    vertex  0: +0.155223 -0.374741i   (distance 0.860706 from O, angle  -67.500 deg)
+    vertex  1: +0.374741 -0.155223i   (distance 0.860706 from O, angle  -22.500 deg)
+    vertex  2: +0.374741 +0.155223i   (distance 0.860706 from O, angle  +22.500 deg)
+    vertex  3: +0.155223 +0.374741i   (distance 0.860706 from O, angle  +67.500 deg)
+    vertex  4: -0.155223 +0.374741i   (distance 0.860706 from O, angle +112.500 deg)
+    vertex  5: -0.374741 +0.155223i   (distance 0.860706 from O, angle +157.500 deg)
+    vertex  6: -0.374741 -0.155223i   (distance 0.860706 from O, angle -157.500 deg)
+    vertex  7: -0.155223 -0.374741i   (distance 0.860706 from O, angle -112.500 deg)
+polygon P2: centre +0.455090 +0.455090i   (distance 1.528571 from O, angle  +45.000 deg)
+    vertex  0: +0.374741 +0.155223i   (distance 0.860706 from O, angle  +22.500 deg)
+    vertex  1: +0.610313 +0.252800i   (distance 1.587746 from O, angle  +22.500 deg)
+    vertex  2: +0.662809 +0.417969i   (distance 2.109212 from O, angle  +32.236 deg)
+    vertex  3: +0.624955 +0.542021i   (distance 2.358771 from O, angle  +40.935 deg)
+    vertex  4: +0.542021 +0.624955i   (distance 2.358771 from O, angle  +49.065 deg)
+    vertex  5: +0.417969 +0.662809i   (distance 2.109212 from O, angle  +57.764 deg)
+    vertex  6: +0.252800 +0.610313i   (distance 1.587746 from O, angle  +67.500 deg)
+    vertex  7: +0.155223 +0.374741i   (distance 0.860706 from O, angle  +67.500 deg)
+polygon P3: centre -0.455090 +0.455090i   (distance 1.528571 from O, angle +135.000 deg)
+    vertex  0: -0.155223 +0.374741i   (distance 0.860706 from O, angle +112.500 deg)
+    vertex  1: -0.252800 +0.610313i   (distance 1.587746 from O, angle +112.500 deg)
+    vertex  2: -0.417969 +0.662809i   (distance 2.109212 from O, angle +122.236 deg)
+    vertex  3: -0.542021 +0.624955i   (distance 2.358771 from O, angle +130.935 deg)
+    vertex  4: -0.624955 +0.542021i   (distance 2.358771 from O, angle +139.065 deg)
+    vertex  5: -0.662809 +0.417969i   (distance 2.109212 from O, angle +147.764 deg)
+    vertex  6: -0.610313 +0.252800i   (distance 1.587746 from O, angle +157.500 deg)
+    vertex  7: -0.374741 +0.155223i   (distance 0.860706 from O, angle +157.500 deg)
+
+[side pairings]
+(edge j and vertex j of a polygon g(P_0) are the images under g of the edge of P_0 with midpoint at angle -90 + 360 j/N degrees and of its end point at angle -90 + 360 (j + 1/2)/N degrees)
+1~: edge 0 of P1  <->  edge 1 of P1   (orientation reversing; the side pairing is the word abc)
+2: edge 2 of P1  <->  edge 7 of P1   (orientation preserving; the side pairing is the word cacb(ac)^7)
+3~: edge 4 of P1  <->  edge 4 of P2   (orientation reversing; the side pairing is the word (ca)^3cb(ca)^3cbcacac)
+4: edge 6 of P1  <->  edge 1 of P2   (orientation preserving; the side pairing is the word (ca)^5cbacbcacac)
+5: edge 2 of P2  <->  edge 7 of P3   (orientation preserving; the side pairing is the word ca(cacb)^2(ac)^7b(ca)^4c)
+6~: edge 3 of P2  <->  edge 7 of P2   (orientation reversing; the side pairing is the word (cacacb)^2(ca)^6cbcacac)
+7~: edge 5 of P2  <->  edge 1 of P3   (orientation reversing; the side pairing is the word cacacb(ca)^4cbcb(ca)^4c)
+8~: edge 6 of P2  <->  edge 6 of P3   (orientation reversing; the side pairing is the word cacacb(ca)^5cb(ca)^5cb(ca)^4c)
+9: edge 2 of P3  <->  edge 5 of P3   (orientation preserving; the side pairing is the word (ca)^4cbcacb(ac)^5b(ca)^4c)
+10~: edge 3 of P3  <->  edge 4 of P3   (orientation reversing; the side pairing is the word (ca)^4(cbcaca)^2cacb(ca)^4c)
+
+[centres of the discs of the extremal packings (a centre on the boundary of the domain is listed with its other copies)]
+packing 1 (uniformization): 3 discs
+    disc 1: centre +0.000000 +0.000000i   (this is O)
+    disc 2: centre +0.455090 +0.455090i   (distance 1.528571 from O, angle  +45.000 deg)
+    disc 3: centre -0.455090 +0.455090i   (distance 1.528571 from O, angle +135.000 deg)
+packing 2: 3 discs
+    disc 1: centre -0.158717 -0.086805i   (distance 0.365835 from O, angle -151.325 deg)
+    disc 2: centre +0.616875 +0.475756i   (distance 2.085767 from O, angle  +37.641 deg)
+    disc 3: centre -0.366228 +0.517925i   (distance 1.497242 from O, angle +125.264 deg)
+discs shared by two different packings: none
+
+[isometries (identity excluded)]
+isometry group of order 4; 2 induced by the triangle group
+3 isometries with mirrors; 0 nontrivial isometries without fixed points
+isometry of order 2 (induced by the triangle group): 1 isolated fixed point, fixed curves (mirrors)
+isometry of order 2 (hidden): 3 isolated fixed points, fixed curves (mirrors)
+isometry of order 2 (hidden): 1 isolated fixed point, fixed curves (mirrors)
+
+[points fixed by isometries acting as rotations]
+stabiliser of order 2: +0.196353 -0.277685i   (distance 0.708397 from O, angle  -54.736 deg)
+stabiliser of order 2: -0.257788 +0.257788i   (distance 0.764285 from O, angle +135.000 deg)
+stabiliser of order 2: +0.319157 +0.469609i   (distance 1.288531 from O, angle  +55.799 deg)
+stabiliser of order 2: +0.544704 +0.461359i   (distance 1.789906 from O, angle  +40.264 deg)
+stabiliser of order 2: -0.553683 +0.585888i   (distance 2.231695 from O, angle +133.381 deg)

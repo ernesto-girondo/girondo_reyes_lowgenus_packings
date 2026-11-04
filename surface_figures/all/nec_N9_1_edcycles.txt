@@ -1,0 +1,38 @@
+Step 3 of the search for nec_N9#1 (the picture nec_N9_1_edcycles.pdf). Points in the Poincare disc model of the
+paper: O = 0, the first edge midpoint of the central polygon on the negative imaginary axis.
+
+Step 2. Admissible distances up to D = 5.2627356 (10 values):
+   d_0   = 1.85507713532
+   d_1   = 2.89096327366
+   d_2   = 3.43821424123
+   d_3   = 3.68102046296
+   d_4   = 4.23208976385
+   d_5   = 4.62525849288
+   d_6   = 4.74604040898
+   d_7   = 4.90671807236
+   d_8   = 5.10205753379
+   d_9   = 5.22578075866
+
+Step 3. The side pairings used (the two that move O the least among those with different axes):
+   s_1 = cacb(ac)^8   (hyperbolic, translation length 1.428339826, moves O by 1.855077135)
+      ED-cycles b_1(d_i) for d_i <= 4.1268504: i = 0, 1, 2, 3
+   s_2 = (ca)^5cb(ca)^6cbcacac   (glide reflection, translation length 2.637491055, moves O by 2.890963274)
+      ED-cycles b_2(d_i) for d_i <= 5.1627366: i = 1, 2, 3, 4, 5, 6, 7, 8 (empty for i = 0, because d_i is smaller than what s_2 moves any point)
+   search disc: centred at O, radius 1.135886138 (circumradius of the polygon + 0.1)
+
+Intersection points of an ED-cycle of s_1 and one of s_2 in the search disc: 5, of which 2 pass the displacement test (candidates).
+#1   +0.00000000 +0.00000000i  (this is O)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 1)
+      candidate: centre of a disc of packing 1 (verified exactly)
+#2   +0.41597631 +0.02473633i  (distance 0.88741084 from O, angle   +3.4031 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 2)
+      discarded: the side pairing (ca)^3(cbcaca)^2c moves it by 2.468160695, which is not an admissible distance
+#3   -0.33455655 -0.24843529i  (distance 0.88741084 from O, angle -143.4031 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 2)
+      discarded: the side pairing (ca)^3(cbcaca)^2c moves it by 5.162158531, which is not an admissible distance
+#4   +0.48136801 +0.00615273i  (distance 1.04962907 from O, angle   +0.7323 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 3)
+      discarded: the side pairing (ca)^3(cbcaca)^2c moves it by 2.470046758, which is not an admissible distance
+#5   -0.37270418 -0.30470413i  (distance 1.04962907 from O, angle -140.7323 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (0, 3)
+      candidate without a conjugator: (ca)^5cb(ca)^6cbcacac cacb(ac)^8 moves it by 2.470046758, not admissible, so it is not a centre

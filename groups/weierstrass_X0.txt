@@ -1,0 +1,34 @@
+Frame K37 (4-packing invariant under Aut): Weierstrass points = edge midpoints of the 9-gons:
+   disc (0.0 - 0.4331513j)   d(0,w)=0.92753857  angle=-90.0 deg
+   disc (0.53572692 - 0.30930208j)   d(0,w)=1.4454816  angle=-30.0 deg
+   disc (0.85923491 - 0.19306691j)   d(0,w)=2.7573884  angle=-12.6638 deg
+   disc (0.33317381 - 0.71068442j)   d(0,w)=2.1160449  angle=-64.8825 deg
+   disc (0.37512003 + 0.21657565j)   d(0,w)=0.92753857  angle=30.0 deg
+   disc (-0.37512003 + 0.21657565j)   d(0,w)=0.92753857  angle=150.0 deg
+   disc (0.12397516 - 0.84625228j)   d(0,w)=2.5510288  angle=-81.6655 deg
+   disc (-0.12397516 - 0.84625228j)   d(0,w)=2.5510288  angle=-98.3345 deg
+   disc (0.78205766 + 0.066805228j)   d(0,w)=2.1160449  angle=4.88249 deg
+   disc (0.5968183 - 0.6475858j)   d(0,w)=2.7573884  angle=-47.3362 deg
+isomorphism found: True
+Frame K36: Weierstrass points (reduced into the fundamental domain):
+   disc (-0.14814647 - 0.40702908j)   d(0,w)=0.92753857  angle=-110.0 deg   triangle word a
+   disc (0.39763109 - 0.47387828j)   d(0,w)=1.4454816  angle=-50.0 deg   triangle word cb
+   disc (0.070012582 - 0.78177705j)   d(0,w)=2.1160449  angle=-84.8825 deg   triangle word ab(ca)^6a
+   disc (0.070012582 - 0.78177705j)   d(0,w)=2.1160449  angle=-84.8825 deg   triangle word ab(ca)^6
+   disc (0.42657075 + 0.075215933j)   d(0,w)=0.92753857  angle=10.0 deg   triangle word caca
+   disc (-0.27842429 + 0.33181314j)   d(0,w)=0.92753857  angle=130.0 deg   triangle word (ca)^6a
+   disc (-0.27842429 + 0.33181314j)   d(0,w)=0.92753857  angle=130.0 deg   triangle word (ca)^5
+   disc (0.42657075 + 0.075215933j)   d(0,w)=0.92753857  angle=10.0 deg   triangle word (ca)^3a
+   disc (0.75774255 - 0.20470309j)   d(0,w)=2.1160449  angle=-15.1175 deg   triangle word cacb(ca)^3a
+   disc (0.75774255 - 0.20470309j)   d(0,w)=2.1160449  angle=-15.1175 deg   triangle word cacb(ca)^3
+Frame K9 (N=18, extremal disc): Weierstrass points (reduced into the fundamental domain):
+   disc (0.21657565 - 0.37512003j)   d(0,w)=0.92753857  angle=-60.0 deg   triangle word ca
+   disc (0.61860416 + 4.8978677e-38j)   d(0,w)=1.4454816  angle=4.53646e-36 deg   triangle word (ca)^4
+   disc (-0.30930208 - 0.53572692j)   d(0,w)=1.4454816  angle=-120.0 deg   triangle word (ca)^17a
+   disc (-0.30930208 - 0.53572692j)   d(0,w)=1.4454816  angle=-120.0 deg   triangle word (ca)^16
+   disc (0.21657565 + 0.37512003j)   d(0,w)=0.92753857  angle=60.0 deg   triangle word (ca)^7
+   disc (-0.4331513 + 9.6779874e-39j)   d(0,w)=0.92753857  angle=180.0 deg   triangle word (ca)^14a
+   disc (-0.4331513 - 6.0310868e-39j)   d(0,w)=0.92753857  angle=-180.0 deg   triangle word (ca)^13
+   disc (0.21657565 + 0.37512003j)   d(0,w)=0.92753857  angle=60.0 deg   triangle word (ca)^8a
+   disc (-0.30930208 + 0.53572692j)   d(0,w)=1.4454816  angle=120.0 deg   triangle word (ca)^11a
+   disc (-0.30930208 + 0.53572692j)   d(0,w)=1.4454816  angle=120.0 deg   triangle word (ca)^10

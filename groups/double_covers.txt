@@ -1,0 +1,63 @@
+Canonical double covers (Appendix A). |ind| = order of the group of isometries induced by the triangle group.
+
+N=12: non-orientable 1-extremal surfaces of genus 3 -> orientable 2-extremal surfaces of genus 2
+   nec_N12#1    packings=2 |ind|=2   ->  fuchs_N12#5     packings=2 |ind|=4
+   nec_N12#2    packings=2 |ind|=1   ->  fuchs_N12#9     packings=2 |ind|=2
+   nec_N12#3    packings=2 |ind|=2   ->  fuchs_N12#8     packings=2 |ind|=12
+   nec_N12#4    packings=2 |ind|=6   ->  fuchs_N12#11    packings=2 |ind|=12
+   nec_N12#5    packings=2 |ind|=2   ->  fuchs_N12#1     packings=2 |ind|=4
+   nec_N12#6    packings=2 |ind|=2   ->  fuchs_N12#21    packings=2 |ind|=4
+   nec_N12#7    packings=1 |ind|=2   ->  fuchs_N12#2     packings=1 |ind|=4
+   nec_N12#8    packings=2 |ind|=2   ->  fuchs_N12#4     packings=2 |ind|=4
+   nec_N12#9    packings=2 |ind|=2   ->  fuchs_N12#13    packings=2 |ind|=4
+   nec_N12#10   packings=2 |ind|=2   ->  fuchs_N12#14    packings=2 |ind|=4
+   nec_N12#11   packings=2 |ind|=6   ->  fuchs_N12#24    packings=2 |ind|=12
+   Fuchsian classes with an induced anticonformal automorphism that are not double covers: fuchs_N12#7, fuchs_N12#19, fuchs_N12#20, fuchs_N12#25
+
+N=9: non-orientable 2-extremal surfaces of genus 3 -> orientable 4-extremal surfaces of genus 2
+   nec_N9#1     packings=1 |ind|=2   ->  fuchs_N9#12     packings=1 |ind|=4
+   nec_N9#2     packings=2 |ind|=2   ->  fuchs_N9#20     packings=2 |ind|=4
+   nec_N9#3     packings=2 |ind|=2   ->  fuchs_N9#17     packings=2 |ind|=4
+   nec_N9#4     packings=2 |ind|=1   ->  fuchs_N9#16     packings=2 |ind|=2
+   Fuchsian classes with an induced anticonformal automorphism that are not double covers: fuchs_N9#1, fuchs_N9#5, fuchs_N9#21, fuchs_N9#29, fuchs_N9#31, fuchs_N9#36, fuchs_N9#37
+
+N=8: non-orientable 3-extremal surfaces of genus 3 -> orientable 6-extremal surfaces of genus 2
+   nec_N8#1     packings=2 |ind|=2   ->  fuchs_N8#18     packings=2 |ind|=4
+   nec_N8#2     packings=2 |ind|=2   ->  fuchs_N8#1      packings=2 |ind|=4
+   nec_N8#3     packings=2 |ind|=6   ->  fuchs_N8#16     packings=2 |ind|=12
+   nec_N8#4     packings=2 |ind|=2   ->  fuchs_N8#17     packings=2 |ind|=12
+   nec_N8#5     packings=2 |ind|=2   ->  fuchs_N8#27     packings=2 |ind|=4
+   nec_N8#6     packings=2 |ind|=1   ->  fuchs_N8#26     packings=2 |ind|=2
+   nec_N8#7     packings=1 |ind|=2   ->  fuchs_N8#28     packings=1 |ind|=4
+   nec_N8#8     packings=2 |ind|=2   ->  fuchs_N8#59     packings=2 |ind|=4
+   nec_N8#9     packings=2 |ind|=2   ->  fuchs_N8#31     packings=2 |ind|=4
+   nec_N8#10    packings=1 |ind|=2   ->  fuchs_N8#39     packings=1 |ind|=4
+   nec_N8#11    packings=2 |ind|=6   ->  fuchs_N8#58     packings=2 |ind|=12
+   nec_N8#12    packings=2 |ind|=2   ->  fuchs_N8#61     packings=2 |ind|=12
+   nec_N8#13    packings=1 |ind|=2   ->  fuchs_N8#9      packings=1 |ind|=4
+   nec_N8#14    packings=2 |ind|=2   ->  fuchs_N8#5      packings=2 |ind|=4
+   nec_N8#15    packings=1 |ind|=2   ->  fuchs_N8#3      packings=1 |ind|=4
+   nec_N8#16    packings=2 |ind|=2   ->  fuchs_N8#12     packings=2 |ind|=4
+   nec_N8#17    packings=2 |ind|=2   ->  fuchs_N8#75     packings=2 |ind|=4
+   nec_N8#18    packings=1 |ind|=4   ->  fuchs_N8#38     packings=1 |ind|=8
+   nec_N8#19    packings=1 |ind|=4   ->  fuchs_N8#42     packings=1 |ind|=8
+   nec_N8#20    packings=1 |ind|=4   ->  fuchs_N8#55     packings=1 |ind|=8
+   nec_N8#21    packings=2 |ind|=6   ->  fuchs_N8#51     packings=2 |ind|=12
+   nec_N8#22    packings=1 |ind|=8   ->  fuchs_N8#64     packings=1 |ind|=16
+   nec_N8#23    packings=2 |ind|=6   ->  fuchs_N8#76     packings=2 |ind|=12
+   Fuchsian classes with an induced anticonformal automorphism that are not double covers: fuchs_N8#19, fuchs_N8#20, fuchs_N8#24, fuchs_N8#30, fuchs_N8#40, fuchs_N8#43, fuchs_N8#45, fuchs_N8#47, fuchs_N8#50, fuchs_N8#54, fuchs_N8#60, fuchs_N8#62, fuchs_N8#69, fuchs_N8#77
+
+N=7: non-orientable 6-extremal surfaces of genus 3 -> orientable 12-extremal surfaces of genus 2
+   nec_N7#1     packings=2 |ind|=1   ->  fuchs_N7#46     packings=2 |ind|=2
+   nec_N7#2     packings=2 |ind|=2   ->  fuchs_N7#1      packings=2 |ind|=4
+   nec_N7#3     packings=2 |ind|=6   ->  fuchs_N7#41     packings=2 |ind|=12
+   nec_N7#4     packings=2 |ind|=2   ->  fuchs_N7#42     packings=2 |ind|=12
+   nec_N7#5     packings=1 |ind|=2   ->  fuchs_N7#44     packings=1 |ind|=4
+   nec_N7#6     packings=2 |ind|=2   ->  fuchs_N7#54     packings=2 |ind|=4
+   nec_N7#7     packings=2 |ind|=1   ->  fuchs_N7#55     packings=2 |ind|=2
+   nec_N7#8     packings=1 |ind|=2   ->  fuchs_N7#50     packings=1 |ind|=4
+   nec_N7#9     packings=2 |ind|=2   ->  fuchs_N7#2      packings=2 |ind|=4
+   nec_N7#10    packings=2 |ind|=2   ->  fuchs_N7#140    packings=2 |ind|=4
+   nec_N7#11    packings=1 |ind|=2   ->  fuchs_N7#132    packings=1 |ind|=4
+   nec_N7#12    packings=2 |ind|=6   ->  fuchs_N7#128    packings=2 |ind|=12
+   Fuchsian classes with an induced anticonformal automorphism that are not double covers: fuchs_N7#10, fuchs_N7#32, fuchs_N7#47, fuchs_N7#48, fuchs_N7#56, fuchs_N7#61, fuchs_N7#84, fuchs_N7#90, fuchs_N7#94, fuchs_N7#96, fuchs_N7#148, fuchs_N7#150, fuchs_N7#153

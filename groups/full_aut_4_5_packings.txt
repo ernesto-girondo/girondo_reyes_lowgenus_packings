@@ -1,0 +1,41 @@
+== fuchs_N18#9: N=18 k=1 packings=4 induced |Aut|=6
+   packing at (0.36472212 - 0.63171723j) (d=1.85508): K_j index 36, Delta^pm-conjugate to K: True
+   packing at (-0.12666666 - 0.71836233j) (d=1.85508): K_j index 36, Delta^pm-conjugate to K: True
+   packing 0 (original): stabiliser = induced automorphisms, order 6
+   packing at (0.68545336 - 0.24948462j) (d=1.85508): K_j index 36, Delta^pm-conjugate to K: True
+   |Aut(X)| (incl. anticonformal) = 6 x 4 = 24 ;  induced conformal = 3, anticonformal = 3
+   => |Aut^+(X)| = 12
+   induced automorphisms (order, parity): {(1, 0): 1, (2, 1): 3, (3, 0): 2}
+== fuchs_N9#21: N=9 k=4 packings=4 induced |Aut|=2
+   packing at (-0.16283952 - 0.44739791j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: True
+   packing 0 (original): stabiliser = induced automorphisms, order 2
+   packing at (0.24948462 + 0.04399087j) (d=0.517943): K_j index 72, Delta^pm-conjugate to K: True
+   packing at (0.24948462 + 0.04399087j) (d=0.517943): K_j index 72, Delta^pm-conjugate to K: True
+   |Aut(X)| (incl. anticonformal) = 2 x 4 = 8 ;  induced conformal = 1, anticonformal = 1
+   => |Aut^+(X)| = 4
+   induced automorphisms (order, parity): {(1, 0): 1, (2, 1): 1}
+== fuchs_N9#36: N=9 k=4 packings=5 induced |Aut|=6
+   packing at (0.46887771 - 0.082675792j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: True
+   packing at (0.41232414 + 0.23805545j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: True
+   packing at (0.30603819 - 0.36472212j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: True
+   packing at (-1.7219156e-41 + 4.5917748e-41j) (d=0.0): K_j index 72, Delta^pm-conjugate to K: False
+   packing 0 (original): stabiliser = induced automorphisms, order 6
+   |Aut(X)| (incl. anticonformal) = 6 x 4 = 24 ;  induced conformal = 3, anticonformal = 3
+   => |Aut^+(X)| = 12
+   induced automorphisms (order, parity): {(1, 0): 1, (2, 1): 3, (3, 0): 2}
+== fuchs_N9#37: N=9 k=4 packings=5 induced |Aut|=24
+   packing at (0.16283952 - 0.44739791j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: False
+   packing at (0.46887771 + 0.082675792j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: False
+   packing at (-7.9813832e-41 - 6.8876622e-41j) (d=0.0): K_j index 72, Delta^pm-conjugate to K: False
+   packing 0 (original): stabiliser = induced automorphisms, order 24
+   packing at (0.41232414 - 0.23805545j) (d=1.03589): K_j index 72, Delta^pm-conjugate to K: False
+   |Aut(X)| (incl. anticonformal) = 24 x 1 = 24 ;  induced conformal = 12, anticonformal = 12
+   => |Aut^+(X)| = 12
+   conformal involution j=4 word=ab fixed points: {'midpoints': 6, 'vertices': 0, 'centres': 0}
+   conformal involution j=22 word=cabc fixed points: {'midpoints': 2, 'vertices': 0, 'centres': 0}
+   conformal involution j=37 word=abcabc fixed points: {'midpoints': 2, 'vertices': 0, 'centres': 0}
+   conformal involution j=40 word=acabca fixed points: {'midpoints': 2, 'vertices': 0, 'centres': 0}
+   conformal involution j=41 word=acabcb fixed points: {'midpoints': 2, 'vertices': 0, 'centres': 0}
+   conformal involution j=64 word=cacabcac fixed points: {'midpoints': 2, 'vertices': 0, 'centres': 0}
+   conformal involution j=71 word=abcacabcac fixed points: {'midpoints': 2, 'vertices': 0, 'centres': 0}
+   induced automorphisms (order, parity): {(1, 0): 1, (2, 1): 6, (2, 0): 7, (12, 1): 4, (3, 0): 2, (6, 0): 2, (4, 1): 2}

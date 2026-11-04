@@ -1,0 +1,10 @@
+class        discs  4-packings  classes of K_j in Delta(2,3,9) (Delta-key)
+fuchs_N18#1      2           0  -
+fuchs_N18#2      1           2  ['fuchs_N9#29']
+fuchs_N18#3      2           4  ['fuchs_N9#21']
+fuchs_N18#4      2           0  -
+fuchs_N18#5      2           0  -
+fuchs_N18#6      2           0  -
+fuchs_N18#7      2           0  -
+fuchs_N18#8      2           0  -
+fuchs_N18#9      4           5  ['fuchs_N9#36', 'fuchs_N9#37']

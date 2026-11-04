@@ -1,0 +1,15 @@
+isomorphism found: True
+[N18#9 as a subgroup of conjugates of Delta(2,3,9)] N=18 k=1 orientable=True  sidepairings=9  D=5.81  #dist=15
+   ED-cycle intersections in the circumdisc: 69
+   candidates passing the displacement test: 10
+   extremal packings found (verified exactly): 5
+      centre in disc: (0.08267579158 - 0.4688777137j)  d(0,z)= 1.035886138
+      centre in disc: (0.3647221155 - 0.3060381926j)  d(0,z)= 1.035886138
+      centre in disc: (-0.2380554541 - 0.4123241415j)  d(0,z)= 1.035886138
+      centre in disc: (-4.800700562e-38 + 1.752910033e-38j)  d(0,z)= 0.0
+      centre in disc: (-4.800700562e-38 + 1.752910033e-38j)  d(0,z)= 0.0
+4-packing centre (0.0826758 - 0.468878j) -> K_j index 72 Delta+- class: fuchs_N9#36  Delta class: fuchs_N9#36
+4-packing centre (0.364722 - 0.306038j) -> K_j index 72 Delta+- class: fuchs_N9#36  Delta class: fuchs_N9#36
+4-packing centre (-0.238055 - 0.412324j) -> K_j index 72 Delta+- class: fuchs_N9#36  Delta class: fuchs_N9#36
+4-packing centre (-4.8007e-38 + 1.75291e-38j) -> K_j index 72 Delta+- class: fuchs_N9#37  Delta class: fuchs_N9#37
+4-packing centre (-4.8007e-38 + 1.75291e-38j) -> K_j index 72 Delta+- class: fuchs_N9#36  Delta class: fuchs_N9#36

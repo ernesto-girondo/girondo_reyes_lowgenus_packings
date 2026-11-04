@@ -1,0 +1,72 @@
+fuchs_N18#7:  N = 18, k = 1, orientable, 2 extremal 1-packings
+All the points are given approximately (6 decimals) in the Poincare disc model of the picture: O = 0, the
+first edge midpoint of the central polygon on the negative imaginary axis; "distance" is the hyperbolic
+distance from O and "angle" the argument in degrees.
+
+[fundamental domain of Step 1: polygons P1, ..., P1]
+polygon P1: centre +0.000000 +0.000000i   (this is O)
+    vertex  0: +0.126667 -0.718362i   (distance 1.855077 from O, angle  -80.000 deg)
+    vertex  1: +0.364722 -0.631717i   (distance 1.855077 from O, angle  -60.000 deg)
+    vertex  2: +0.558787 -0.468878i   (distance 1.855077 from O, angle  -40.000 deg)
+    vertex  3: +0.685453 -0.249485i   (distance 1.855077 from O, angle  -20.000 deg)
+    vertex  4: +0.729444 +0.000000i   (distance 1.855077 from O, angle   -0.000 deg)
+    vertex  5: +0.685453 +0.249485i   (distance 1.855077 from O, angle  +20.000 deg)
+    vertex  6: +0.558787 +0.468878i   (distance 1.855077 from O, angle  +40.000 deg)
+    vertex  7: +0.364722 +0.631717i   (distance 1.855077 from O, angle  +60.000 deg)
+    vertex  8: +0.126667 +0.718362i   (distance 1.855077 from O, angle  +80.000 deg)
+    vertex  9: -0.126667 +0.718362i   (distance 1.855077 from O, angle +100.000 deg)
+    vertex 10: -0.364722 +0.631717i   (distance 1.855077 from O, angle +120.000 deg)
+    vertex 11: -0.558787 +0.468878i   (distance 1.855077 from O, angle +140.000 deg)
+    vertex 12: -0.685453 +0.249485i   (distance 1.855077 from O, angle +160.000 deg)
+    vertex 13: -0.729444 +0.000000i   (distance 1.855077 from O, angle +180.000 deg)
+    vertex 14: -0.685453 -0.249485i   (distance 1.855077 from O, angle -160.000 deg)
+    vertex 15: -0.558787 -0.468878i   (distance 1.855077 from O, angle -140.000 deg)
+    vertex 16: -0.364722 -0.631717i   (distance 1.855077 from O, angle -120.000 deg)
+    vertex 17: -0.126667 -0.718362i   (distance 1.855077 from O, angle -100.000 deg)
+
+[side pairings]
+(edge j and vertex j of a polygon g(P_0) are the images under g of the edge of P_0 with midpoint at angle -90 + 360 j/N degrees and of its end point at angle -90 + 360 (j + 1/2)/N degrees)
+1: edge 0 of P1  <->  edge 6 of P1   (orientation preserving; the side pairing is the word ab(ac)^6)
+2: edge 1 of P1  <->  edge 10 of P1   (orientation preserving; the side pairing is the word cb(ac)^10)
+3: edge 2 of P1  <->  edge 14 of P1   (orientation preserving; the side pairing is the word cacb(ac)^14)
+4: edge 3 of P1  <->  edge 7 of P1   (orientation preserving; the side pairing is the word cacacb(ac)^7)
+5: edge 4 of P1  <->  edge 17 of P1   (orientation preserving; the side pairing is the word (ca)^3cb(ac)^17)
+6: edge 5 of P1  <->  edge 11 of P1   (orientation preserving; the side pairing is the word (ca)^4cb(ac)^11)
+7: edge 8 of P1  <->  edge 13 of P1   (orientation preserving; the side pairing is the word (ca)^7cb(ac)^13)
+8: edge 9 of P1  <->  edge 15 of P1   (orientation preserving; the side pairing is the word (ca)^8cb(ac)^15)
+9: edge 12 of P1  <->  edge 16 of P1   (orientation preserving; the side pairing is the word (ca)^11cb(ac)^16)
+
+[centres of the discs of the extremal packings (a centre on the boundary of the domain is listed with its other copies)]
+packing 1 (uniformization): 1 discs
+    disc 1: centre +0.000000 +0.000000i   (this is O)
+packing 2: 1 discs
+    disc 1: centre -0.238055 +0.654052i   (distance 1.719107 from O, angle +110.000 deg)
+            copy  +0.238055 -0.654052i   (distance 1.719107 from O, angle  -70.000 deg)
+discs shared by two different packings: none
+
+[isometries (identity excluded)]
+isometry group of order 4: 4 conformal automorphisms and 0 anticonformal ones; 2 induced by the triangle group
+0 anticonformal involutions with mirrors; 0 nontrivial isometries without fixed points
+conformal of order 2 (induced by the triangle group): 2 isolated fixed points
+conformal of order 2 (hidden): 6 isolated fixed points
+conformal of order 2 (hidden): 2 isolated fixed points
+
+[points fixed by isometries acting as rotations]
+stabiliser of order 2: +0.000000 +0.000000i   (this is O)
+stabiliser of order 2: -0.138564 +0.380702i   (distance 0.859554 from O, angle +110.000 deg)
+stabiliser of order 2: +0.138564 -0.380702i   (distance 0.859554 from O, angle  -70.000 deg)
+stabiliser of order 2: +0.500135 +0.182034i   (distance 1.186510 from O, angle  +20.000 deg)
+stabiliser of order 2: -0.500135 -0.182034i   (distance 1.186510 from O, angle -160.000 deg)
+stabiliser of order 2: -0.636387 +0.205278i   (distance 1.616690 from O, angle +162.122 deg)
+stabiliser of order 2: -0.355551 -0.566314i   (distance 1.616690 from O, angle -122.122 deg)
+stabiliser of order 2: +0.636387 -0.205278i   (distance 1.616690 from O, angle  -17.878 deg)
+stabiliser of order 2: +0.355551 +0.566314i   (distance 1.616690 from O, angle  +57.878 deg)
+stabiliser of order 2: -0.238055 +0.654052i   (distance 1.719107 from O, angle +110.000 deg)   (2 copies on the boundary of the domain)
+
+[Weierstrass points (fixed points of the hyperelliptic involution)]
++0.138564 -0.380702i   (distance 0.859554 from O, angle  -70.000 deg)
++0.500135 +0.182034i   (distance 1.186510 from O, angle  +20.000 deg)
+-0.138564 +0.380702i   (distance 0.859554 from O, angle +110.000 deg)
++0.636387 -0.205278i   (distance 1.616690 from O, angle  -17.878 deg)
+-0.500135 -0.182034i   (distance 1.186510 from O, angle -160.000 deg)
+-0.636387 +0.205278i   (distance 1.616690 from O, angle +162.122 deg)

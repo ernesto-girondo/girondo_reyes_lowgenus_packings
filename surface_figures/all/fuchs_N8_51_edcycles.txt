@@ -1,0 +1,58 @@
+Step 3 of the search for fuchs_N8#51 (the picture fuchs_N8_51_edcycles.pdf). Points in the Poincare disc model of the
+paper: O = 0, the first edge midpoint of the central polygon on the negative imaginary axis.
+
+Step 2. Admissible distances up to D = 4.4698651 (9 values):
+   d_0   = 1.52857091948
+   d_1   = 2.44845244768
+   d_2   = 2.91403538772
+   d_3   = 3.05714183896
+   d_4   = 3.63158173756
+   d_5   = 3.94034614433
+   d_6   = 4.21842482026
+   d_7   = 4.35137527822
+   d_8   = 4.43573990537
+
+Step 3. The side pairings used (the two that move O the least among those with different axes):
+   s_1 = cacacb(ca)^5cbacb(ca)^3cba   (hyperbolic, translation length 2.25676793, moves O by 2.448452448)
+      ED-cycles b_1(d_i) for d_i <= 4.3698661: i = 1, 2, 3, 4, 5, 6, 7 (empty for i = 0, because d_i is smaller than what s_1 moves any point)
+   s_2 = (ca)^5cb(ac)^6ba   (hyperbolic, translation length 2.25676793, moves O by 2.448452448)
+      ED-cycles b_2(d_i) for d_i <= 4.3698661: i = 1, 2, 3, 4, 5, 6, 7 (empty for i = 0, because d_i is smaller than what s_2 moves any point)
+   search disc: centred at O, radius 0.9607063042 (circumradius of the polygon + 0.1)
+
+Intersection points of an ED-cycle of s_1 and one of s_2 in the search disc: 12, of which 3 pass the displacement test (candidates).
+#1   +0.00000000 +0.00000000i  (this is O)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 1)
+      candidate: centre of a disc of packing 1 (verified exactly)
+#2   -0.04271015 +0.30335749i  (distance 0.63302331 from O, angle  +98.0141 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 4.086636678, which is not an admissible distance
+#3   -0.06283480 +0.36622804i  (distance 0.78050832 from O, angle  +99.7356 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (1, 3)
+      candidate: centre of a disc of packing 2 (verified exactly)
+#4   +0.18430550 -0.24470677i  (distance 0.63302331 from O, angle  -53.0141 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 1)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 2.536280273, which is not an admissible distance
+#5   +0.21301619 +0.08823420i  (distance 0.46957658 from O, angle  +22.5000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 3.431992969, which is not an admissible distance
+#6   +0.20024092 +0.17654982i  (distance 0.54716979 from O, angle  +41.4022 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (2, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 3.715860532, which is not an admissible distance
+#7   +0.21453142 -0.30339324i  (distance 0.78050832 from O, angle  -54.7356 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 1)
+      candidate: centre of a disc of packing 2 (verified exactly)
+#8   +0.26643129 +0.01675214i  (distance 0.54716979 from O, angle   +3.5978 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 2)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 3.273447384, which is not an admissible distance
+#9   +0.26018255 +0.10777114i  (distance 0.57888055 from O, angle  +22.5000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 3.553687937, which is not an admissible distance
+#10  +0.16709930 +0.41376696i  (distance 0.95997736 from O, angle  +68.0087 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (3, 4)
+      discarded: the side pairing cacbcacacb(ac)^3bcacac moves it by 3.964195289, which is not an admissible distance
+#11  +0.41073447 -0.17442038i  (distance 0.95997736 from O, angle  -23.0087 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (4, 3)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 2.987302406, which is not an admissible distance
+#12  +0.41151699 +0.17045592i  (distance 0.95795107 from O, angle  +22.5000 deg)
+      on b_1(d_i) and b_2(d_j) for (i, j) = (4, 4)
+      discarded: the side pairing (ca)^6cb(ac)^4bc moves it by 4.065037764, which is not an admissible distance

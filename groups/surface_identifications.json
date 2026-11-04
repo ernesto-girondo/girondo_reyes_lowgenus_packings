@@ -1,0 +1,2925 @@
+{
+ "fuchs_N10": {
+  "fuchs_N10#1": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#2"
+  },
+  "fuchs_N10#2": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#1"
+  },
+  "fuchs_N10#3": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#8"
+  },
+  "fuchs_N10#4": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#5": {
+   "packings": 2,
+   "induced_aut": 1,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#6"
+  },
+  "fuchs_N10#6": {
+   "packings": 2,
+   "induced_aut": 1,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#5"
+  },
+  "fuchs_N10#7": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#8": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#3"
+  },
+  "fuchs_N10#9": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#10": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#11": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#14"
+  },
+  "fuchs_N10#12": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#13": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#15"
+  },
+  "fuchs_N10#14": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#11"
+  },
+  "fuchs_N10#15": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N10#13"
+  },
+  "fuchs_N10#16": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#17": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#18": {
+   "packings": 1,
+   "induced_aut": 20,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#19": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N10#20": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  }
+ },
+ "fuchs_N12": {
+  "fuchs_N12#1": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#2": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#3": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#6"
+  },
+  "fuchs_N12#4": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#5": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#6": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#3"
+  },
+  "fuchs_N12#7": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#8": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#9": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#10": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#12"
+  },
+  "fuchs_N12#11": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#12": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#10"
+  },
+  "fuchs_N12#13": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#14": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#15": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#17"
+  },
+  "fuchs_N12#16": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#18"
+  },
+  "fuchs_N12#17": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#15"
+  },
+  "fuchs_N12#18": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#16"
+  },
+  "fuchs_N12#19": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#20": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#21": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#22": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#23"
+  },
+  "fuchs_N12#23": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N12#22"
+  },
+  "fuchs_N12#24": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N12#25": {
+   "packings": 1,
+   "induced_aut": 16,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  }
+ },
+ "fuchs_N18": {
+  "fuchs_N18#1": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N18#2": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N18#3": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N18#4": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N18#5": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N18#6": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N18#7"
+  },
+  "fuchs_N18#7": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N18#6"
+  },
+  "fuchs_N18#8": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N18#9": {
+   "packings": 4,
+   "induced_aut": 6,
+   "induced_anti": true,
+   "hidden_conf_links": 3,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  }
+ },
+ "fuchs_N7": {
+  "fuchs_N7#1": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#2": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#3": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#4"
+  },
+  "fuchs_N7#4": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#3"
+  },
+  "fuchs_N7#5": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#20"
+  },
+  "fuchs_N7#6": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#21"
+  },
+  "fuchs_N7#7": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#22"
+  },
+  "fuchs_N7#8": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#23"
+  },
+  "fuchs_N7#9": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#19"
+  },
+  "fuchs_N7#10": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#11": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#18"
+  },
+  "fuchs_N7#12": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#16"
+  },
+  "fuchs_N7#13": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#17"
+  },
+  "fuchs_N7#14": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#15"
+  },
+  "fuchs_N7#15": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#14"
+  },
+  "fuchs_N7#16": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#12"
+  },
+  "fuchs_N7#17": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#13"
+  },
+  "fuchs_N7#18": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#11"
+  },
+  "fuchs_N7#19": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#9"
+  },
+  "fuchs_N7#20": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#5"
+  },
+  "fuchs_N7#21": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#6"
+  },
+  "fuchs_N7#22": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#7"
+  },
+  "fuchs_N7#23": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#8"
+  },
+  "fuchs_N7#24": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#36"
+  },
+  "fuchs_N7#25": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#39"
+  },
+  "fuchs_N7#26": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#38"
+  },
+  "fuchs_N7#27": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#37"
+  },
+  "fuchs_N7#28": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#40"
+  },
+  "fuchs_N7#29": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#35"
+  },
+  "fuchs_N7#30": {
+   "packings": 2,
+   "induced_aut": 1,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#31"
+  },
+  "fuchs_N7#31": {
+   "packings": 2,
+   "induced_aut": 1,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#30"
+  },
+  "fuchs_N7#32": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#33": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#34"
+  },
+  "fuchs_N7#34": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#33"
+  },
+  "fuchs_N7#35": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#29"
+  },
+  "fuchs_N7#36": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#24"
+  },
+  "fuchs_N7#37": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#27"
+  },
+  "fuchs_N7#38": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#26"
+  },
+  "fuchs_N7#39": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#25"
+  },
+  "fuchs_N7#40": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#28"
+  },
+  "fuchs_N7#41": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#42": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#43": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#49"
+  },
+  "fuchs_N7#44": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#45": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#53"
+  },
+  "fuchs_N7#46": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#47": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#48": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#49": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#43"
+  },
+  "fuchs_N7#50": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#51": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#52"
+  },
+  "fuchs_N7#52": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#51"
+  },
+  "fuchs_N7#53": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#45"
+  },
+  "fuchs_N7#54": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#55": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#56": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#57": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#64"
+  },
+  "fuchs_N7#58": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#63"
+  },
+  "fuchs_N7#59": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#60"
+  },
+  "fuchs_N7#60": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#59"
+  },
+  "fuchs_N7#61": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#62": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#72"
+  },
+  "fuchs_N7#63": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#58"
+  },
+  "fuchs_N7#64": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#57"
+  },
+  "fuchs_N7#65": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#76"
+  },
+  "fuchs_N7#66": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#78"
+  },
+  "fuchs_N7#67": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#77"
+  },
+  "fuchs_N7#68": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#75"
+  },
+  "fuchs_N7#69": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#73"
+  },
+  "fuchs_N7#70": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#71"
+  },
+  "fuchs_N7#71": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#70"
+  },
+  "fuchs_N7#72": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#62"
+  },
+  "fuchs_N7#73": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#69"
+  },
+  "fuchs_N7#74": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#79"
+  },
+  "fuchs_N7#75": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#68"
+  },
+  "fuchs_N7#76": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#65"
+  },
+  "fuchs_N7#77": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#67"
+  },
+  "fuchs_N7#78": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#66"
+  },
+  "fuchs_N7#79": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#74"
+  },
+  "fuchs_N7#80": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#82"
+  },
+  "fuchs_N7#81": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#83"
+  },
+  "fuchs_N7#82": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#80"
+  },
+  "fuchs_N7#83": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#81"
+  },
+  "fuchs_N7#84": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#85": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#88"
+  },
+  "fuchs_N7#86": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#93"
+  },
+  "fuchs_N7#87": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#89"
+  },
+  "fuchs_N7#88": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#85"
+  },
+  "fuchs_N7#89": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#87"
+  },
+  "fuchs_N7#90": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#91": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#92"
+  },
+  "fuchs_N7#92": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#91"
+  },
+  "fuchs_N7#93": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#86"
+  },
+  "fuchs_N7#94": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#95": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#97"
+  },
+  "fuchs_N7#96": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#97": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#95"
+  },
+  "fuchs_N7#98": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#106"
+  },
+  "fuchs_N7#99": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#105"
+  },
+  "fuchs_N7#100": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#107"
+  },
+  "fuchs_N7#101": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#103"
+  },
+  "fuchs_N7#102": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#104"
+  },
+  "fuchs_N7#103": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#101"
+  },
+  "fuchs_N7#104": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#102"
+  },
+  "fuchs_N7#105": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#99"
+  },
+  "fuchs_N7#106": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#98"
+  },
+  "fuchs_N7#107": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#100"
+  },
+  "fuchs_N7#108": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#109"
+  },
+  "fuchs_N7#109": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#108"
+  },
+  "fuchs_N7#110": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#126"
+  },
+  "fuchs_N7#111": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#117"
+  },
+  "fuchs_N7#112": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#123"
+  },
+  "fuchs_N7#113": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#122"
+  },
+  "fuchs_N7#114": {
+   "packings": 2,
+   "induced_aut": 6,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#124"
+  },
+  "fuchs_N7#115": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#119"
+  },
+  "fuchs_N7#116": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#125"
+  },
+  "fuchs_N7#117": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#111"
+  },
+  "fuchs_N7#118": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#121"
+  },
+  "fuchs_N7#119": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#115"
+  },
+  "fuchs_N7#120": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#127"
+  },
+  "fuchs_N7#121": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#118"
+  },
+  "fuchs_N7#122": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#113"
+  },
+  "fuchs_N7#123": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#112"
+  },
+  "fuchs_N7#124": {
+   "packings": 2,
+   "induced_aut": 6,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#114"
+  },
+  "fuchs_N7#125": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#116"
+  },
+  "fuchs_N7#126": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#110"
+  },
+  "fuchs_N7#127": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#120"
+  },
+  "fuchs_N7#128": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#129": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#135"
+  },
+  "fuchs_N7#130": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#133"
+  },
+  "fuchs_N7#131": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#146"
+  },
+  "fuchs_N7#132": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#133": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#130"
+  },
+  "fuchs_N7#134": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#143"
+  },
+  "fuchs_N7#135": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#129"
+  },
+  "fuchs_N7#136": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#138"
+  },
+  "fuchs_N7#137": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#142"
+  },
+  "fuchs_N7#138": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#136"
+  },
+  "fuchs_N7#139": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#141"
+  },
+  "fuchs_N7#140": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#141": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#139"
+  },
+  "fuchs_N7#142": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#137"
+  },
+  "fuchs_N7#143": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#134"
+  },
+  "fuchs_N7#144": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#145"
+  },
+  "fuchs_N7#145": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#144"
+  },
+  "fuchs_N7#146": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#131"
+  },
+  "fuchs_N7#147": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#152"
+  },
+  "fuchs_N7#148": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#149": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#154"
+  },
+  "fuchs_N7#150": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#151": {
+   "packings": 2,
+   "induced_aut": 6,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#155"
+  },
+  "fuchs_N7#152": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#147"
+  },
+  "fuchs_N7#153": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N7#154": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#149"
+  },
+  "fuchs_N7#155": {
+   "packings": 2,
+   "induced_aut": 6,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N7#151"
+  }
+ },
+ "fuchs_N8": {
+  "fuchs_N8#1": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#2": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#6"
+  },
+  "fuchs_N8#3": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#4": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#7"
+  },
+  "fuchs_N8#5": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#6": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#2"
+  },
+  "fuchs_N8#7": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#4"
+  },
+  "fuchs_N8#8": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#14"
+  },
+  "fuchs_N8#9": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#10": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#13"
+  },
+  "fuchs_N8#11": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#15"
+  },
+  "fuchs_N8#12": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#13": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#10"
+  },
+  "fuchs_N8#14": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#8"
+  },
+  "fuchs_N8#15": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#11"
+  },
+  "fuchs_N8#16": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#17": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#18": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#19": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#20": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#21": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#22"
+  },
+  "fuchs_N8#22": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#21"
+  },
+  "fuchs_N8#23": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#25"
+  },
+  "fuchs_N8#24": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#25": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#23"
+  },
+  "fuchs_N8#26": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#27": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#28": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#29": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#33"
+  },
+  "fuchs_N8#30": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#31": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#32": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#41"
+  },
+  "fuchs_N8#33": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#29"
+  },
+  "fuchs_N8#34": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#35"
+  },
+  "fuchs_N8#35": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#34"
+  },
+  "fuchs_N8#36": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#48"
+  },
+  "fuchs_N8#37": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#44"
+  },
+  "fuchs_N8#38": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#39": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#40": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#41": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#32"
+  },
+  "fuchs_N8#42": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#43": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#44": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#37"
+  },
+  "fuchs_N8#45": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#46": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#49"
+  },
+  "fuchs_N8#47": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#48": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#36"
+  },
+  "fuchs_N8#49": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#46"
+  },
+  "fuchs_N8#50": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#51": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#52": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#57"
+  },
+  "fuchs_N8#53": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#56"
+  },
+  "fuchs_N8#54": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#55": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#56": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#53"
+  },
+  "fuchs_N8#57": {
+   "packings": 1,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#52"
+  },
+  "fuchs_N8#58": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#59": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#60": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#61": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#62": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#63": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#67"
+  },
+  "fuchs_N8#64": {
+   "packings": 1,
+   "induced_aut": 16,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#65": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#70"
+  },
+  "fuchs_N8#66": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#68"
+  },
+  "fuchs_N8#67": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#63"
+  },
+  "fuchs_N8#68": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#66"
+  },
+  "fuchs_N8#69": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#70": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#65"
+  },
+  "fuchs_N8#71": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#73"
+  },
+  "fuchs_N8#72": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#74"
+  },
+  "fuchs_N8#73": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#71"
+  },
+  "fuchs_N8#74": {
+   "packings": 1,
+   "induced_aut": 12,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N8#72"
+  },
+  "fuchs_N8#75": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#76": {
+   "packings": 2,
+   "induced_aut": 12,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N8#77": {
+   "packings": 1,
+   "induced_aut": 96,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  }
+ },
+ "fuchs_N9": {
+  "fuchs_N9#1": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#2": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#4"
+  },
+  "fuchs_N9#3": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#7"
+  },
+  "fuchs_N9#4": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#2"
+  },
+  "fuchs_N9#5": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#6": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#15"
+  },
+  "fuchs_N9#7": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#3"
+  },
+  "fuchs_N9#8": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#11"
+  },
+  "fuchs_N9#9": {
+   "packings": 2,
+   "induced_aut": 1,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#10"
+  },
+  "fuchs_N9#10": {
+   "packings": 2,
+   "induced_aut": 1,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#9"
+  },
+  "fuchs_N9#11": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#8"
+  },
+  "fuchs_N9#12": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#13": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#14"
+  },
+  "fuchs_N9#14": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#13"
+  },
+  "fuchs_N9#15": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#6"
+  },
+  "fuchs_N9#16": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#17": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#18": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#19"
+  },
+  "fuchs_N9#19": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#18"
+  },
+  "fuchs_N9#20": {
+   "packings": 2,
+   "induced_aut": 4,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#21": {
+   "packings": 4,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 3,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#22": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#26"
+  },
+  "fuchs_N9#23": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#25"
+  },
+  "fuchs_N9#24": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#28"
+  },
+  "fuchs_N9#25": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#23"
+  },
+  "fuchs_N9#26": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#22"
+  },
+  "fuchs_N9#27": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#30"
+  },
+  "fuchs_N9#28": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#24"
+  },
+  "fuchs_N9#29": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": true,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#30": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#27"
+  },
+  "fuchs_N9#31": {
+   "packings": 1,
+   "induced_aut": 8,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": null
+  },
+  "fuchs_N9#32": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#33"
+  },
+  "fuchs_N9#33": {
+   "packings": 1,
+   "induced_aut": 4,
+   "induced_anti": false,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#32"
+  },
+  "fuchs_N9#34": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#35"
+  },
+  "fuchs_N9#35": {
+   "packings": 2,
+   "induced_aut": 2,
+   "induced_anti": false,
+   "hidden_conf_links": 1,
+   "hidden_anti_links": 0,
+   "other_surfaces": [],
+   "mirror": "fuchs_N9#34"
+  },
+  "fuchs_N9#36": {
+   "packings": 5,
+   "induced_aut": 6,
+   "induced_anti": true,
+   "hidden_conf_links": 3,
+   "hidden_anti_links": 0,
+   "other_surfaces": [
+    "fuchs_N9#37"
+   ],
+   "mirror": null
+  },
+  "fuchs_N9#37": {
+   "packings": 5,
+   "induced_aut": 24,
+   "induced_anti": true,
+   "hidden_conf_links": 0,
+   "hidden_anti_links": 0,
+   "other_surfaces": [
+    "fuchs_N9#36"
+   ],
+   "mirror": null
+  }
+ }
+}

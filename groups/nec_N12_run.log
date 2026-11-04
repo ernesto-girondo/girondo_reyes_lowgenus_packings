@@ -1,0 +1,12 @@
+nec_N12#1: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N12#2: k=1 ori=False packings=2 aut=1 unc=0 rej=0/True  cover: packings=2 aut=2
+nec_N12#3: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=12
+nec_N12#4: k=1 ori=False packings=2 aut=6 unc=0 rej=0/True  cover: packings=2 aut=12
+nec_N12#5: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N12#6: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N12#7: k=1 ori=False packings=1 aut=2 unc=0 rej=0/True  cover: packings=1 aut=4
+nec_N12#8: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N12#9: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N12#10: k=1 ori=False packings=2 aut=2 unc=0 rej=0/True  cover: packings=2 aut=4
+nec_N12#11: k=1 ori=False packings=2 aut=6 unc=0 rej=0/True  cover: packings=2 aut=12
+DONE
