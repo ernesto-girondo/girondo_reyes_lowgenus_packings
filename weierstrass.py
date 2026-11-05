@@ -97,3 +97,58 @@ for name, S_from, G_from in [('K36', S36, G9), ('K9 (N=18, extremal disc)', S9x,
         wF, gp = reduce_mod_K(S_from, w)
         print('   disc %s   d(0,w)=%s  angle=%s deg   triangle word %s' % (mp.nstr(to_disc(wF), 8), mp.nstr(hdist(i0, wF), 8), mp.nstr(mp.degrees(mp.arg(to_disc(wF))), 6), compress(gp)))
     S_from.G = G9
+
+# Theorem 6.5(ii): the quotient X6/Aut+(X6) = D/N+, N+ the normalizer of K_9 (fuchs_N9#37) in Delta(2,3,9).
+# The induced isometries of D/K_9 are the automorphisms of the permutation representation of Delta^pm on the cosets
+# of K_9 (maps commuting with a, b, c); the cosets of the normalizer are the orbits of this group, and the action of
+# x = ab, y = bc and xy on them is the monodromy of D/N+ -> D/Delta(2,3,9).
+g = [json.loads(l) for l in open('groups/fuchs_N9.jsonl') if l.strip()][36]
+d = g['d']
+P = {ch: [v - 1 for v in g[ch]] for ch in 'abc'}
+
+
+def automorphism_from(p):
+    m = {0: p}
+    stack = [0]
+    while stack:
+        q = stack.pop()
+        for ch in 'abc':
+            r, s = P[ch][q], P[ch][m[q]]
+            if r in m:
+                if m[r] != s:
+                    return None
+            else:
+                m[r] = s
+                stack.append(r)
+    return m if len(set(m.values())) == d else None
+
+
+C = [m for m in (automorphism_from(p) for p in range(d)) if m]
+orbit = lambda q: frozenset(m[q] for m in C)
+blocks = sorted(set(orbit(q) for q in range(d)), key=min)
+num = {o: i + 1 for i, o in enumerate(blocks)}
+x = lambda q: P['b'][P['a'][q]]
+y = lambda q: P['c'][P['b'][q]]
+xy = lambda q: y(x(q))                     # apply x, then y
+
+
+def cycles(f):
+    img = {num[o]: num[orbit(f(min(o)))] for o in blocks}
+    seen, out = set(), []
+    for i in sorted(img):
+        if i in seen or img[i] == i:
+            seen.add(i)
+            continue
+        c = [i]
+        while img[c[-1]] != i:
+            c.append(img[c[-1]])
+        seen.update(c)
+        out.append('(' + ' '.join(map(str, c)) + ')')
+    return ''.join(out) or 'id'
+
+
+print()
+print('Theorem 6.5(ii): K_9 = fuchs_N9#37 has %d induced isometries (|N^pm/K_9|), so its normalizer has %d cosets in '
+      'Delta^pm(2,3,9) (and N+ has index %d in Delta(2,3,9)); action on them (monodromy of D/N+ -> D/Delta(2,3,9)):'
+      % (len(C), len(blocks), len(blocks)))
+print('   x = ab: %s    y = bc: %s    xy: %s' % (cycles(x), cycles(y), cycles(xy)))

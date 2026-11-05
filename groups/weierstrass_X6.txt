@@ -32,3 +32,6 @@ Frame K9 (N=18, extremal disc): Weierstrass points (reduced into the fundamental
    disc (0.21657565 + 0.37512003j)   d(0,w)=0.92753857  angle=60.0 deg   triangle word (ca)^8a
    disc (-0.30930208 + 0.53572692j)   d(0,w)=1.4454816  angle=120.0 deg   triangle word (ca)^11a
    disc (-0.30930208 + 0.53572692j)   d(0,w)=1.4454816  angle=120.0 deg   triangle word (ca)^10
+
+Theorem 6.5(ii): K_9 = fuchs_N9#37 has 24 induced isometries (|N^pm/K_9|), so its normalizer has 3 cosets in Delta^pm(2,3,9) (and N+ has index 3 in Delta(2,3,9)); action on them (monodromy of D/N+ -> D/Delta(2,3,9)):
+   x = ab: id    y = bc: (1 2 3)    xy: (1 2 3)

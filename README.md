@@ -58,7 +58,8 @@ Checks and analysis (each one writes the file indicated in `groups/`)
   the isometry group (Theorem 6.5(i), Remark 6.6), and the fixed points of the involutions of X_6.
 * `multi_extremal.py` → `multi_extremal.txt`: the 1-extremal surfaces that are also 4-extremal.
 * `cross_check_9_18.py` → `cross_check_9_18.txt`: the five 4-packings of X_6 seen from the polygons of its 1-extremal tessellation (the 18-gons).
-* `weierstrass.py` → `weierstrass_X6.txt`: Weierstrass points of X_6.
+* `weierstrass.py` → `weierstrass_X6.txt`: Weierstrass points of X_6, and the monodromy of the quotient X_6/Aut⁺(X_6)
+  over D/Δ(2,3,9) (Theorem 6.5(ii)).
 * `margins.py` → `margins.txt`: the safety margins of the floating point decisions of the search (Section 4 of the
   paper, "Exact and floating point steps"); about 8 minutes.
 * `identify_class.py`: identifies a surface given by its monodromy (the permutations of a, b, c, or the monodromy

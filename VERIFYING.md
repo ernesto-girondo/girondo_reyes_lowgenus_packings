@@ -555,7 +555,7 @@ Each line gives the program, the file it writes in `groups/` (which you can comp
 | Theorem 6.3(v) | `multi_extremal.py` → `multi_extremal.txt` | only `fuchs_N18#2`, `#3`, `#9` have 4-packings: 2, 4 and 5 of them |
 | Theorem 6.3(vi) | `isometry_orbits.py` → `isometry_orbits.txt` | the only non-transitive cases are `fuchs_N9#36` and `fuchs_N9#37`, i.e. X_6 |
 | Theorem 6.5(i) | `fullaut.py` → `full_aut_4_5_packings.txt`; `cross_check_9_18.py` → `cross_check_9_18.txt` | `|Aut(X)| (incl. anticonformal) = ... = 24`; the five 4-packings of `fuchs_N18#9` (the group K_18 of the paper), four in the class `#36` (K_orb) and one in `#37` (K_inv) |
-| Theorem 6.5(ii) | (proved in the paper) | uses Aut⁺(X_6) ≅ D_6 and the quotient orbifold, from the two lines above |
+| Theorem 6.5(ii) | `weierstrass.py` → `weierstrass_X6.txt` (last lines) | `x = ab: id    y = bc: (1 2 3)    xy: (1 2 3)`, the monodromy of D/N⁺ → D/Δ(2,3,9), with `24 induced isometries` and `3 cosets`; the rest of the proof (the equation of the curve) is in the paper |
 | Theorem 6.5(iii) | `weierstrass.py` → `weierstrass_X6.txt` | in the block `Frame K9 (N=18, extremal disc)`: distances `0.92753857` (angles 60°, 180°, −60°) and `1.4454816` (angles 0°, ±120°); each point appears once or twice, from the two triangles that contain it |
 | Remark 6.4 | `groups/surfaces_summary.csv` | `fuchs_N8#77` and `fuchs_N10#18`: one packing, induced isometry groups of order 96 and 20 |
 | Remark 6.6 (X_3) | `fullaut.py` → `full_aut_4_5_packings.txt`; `autfix.py groups/fuchs_N9.jsonl 21` (prints only) | `|Aut(X)| (incl. anticonformal) = 2 x 4 = 8` for `fuchs_N9#21`; the line `conformal involution from packing 2 : 6 fixed points`, at distances 1.034, 1.754, 1.283, 2.066, 2.709, 2.559 |
