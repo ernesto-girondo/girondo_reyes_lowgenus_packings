@@ -7,7 +7,7 @@ them. It assumes no knowledge of the programs, only of the paper. Every command 
 written, on a fresh copy of this folder; the outputs quoted are the ones you should obtain. A formatted copy of this guide is included as `VERIFYING.pdf`;
 this `.md` file is the reference version.
 
-Time needed: about 15 minutes to install the software and check one surface; about 45 minutes to recompute
+Time needed: about 15 minutes to install the software and check one surface; about 55 minutes to recompute
 everything from scratch.
 
 ---
@@ -560,18 +560,19 @@ Each line gives the program, the file it writes in `groups/` (which you can comp
 | Remark 6.4 | `groups/surfaces_summary.csv` | `fuchs_N8#77` and `fuchs_N10#18`: one packing, induced isometry groups of order 96 and 20 |
 | Remark 6.6 (X_3) | `fullaut.py` → `full_aut_4_5_packings.txt`; `autfix.py groups/fuchs_N9.jsonl 21` (prints only) | `|Aut(X)| (incl. anticonformal) = 2 x 4 = 8` for `fuchs_N9#21`; the line `conformal involution from packing 2 : 6 fixed points`, at distances 1.034, 1.754, 1.283, 2.066, 2.709, 2.559 |
 | Remark 6.7 (k = 1) | `report.py` → `report.txt` (part 7); `conformal_aut.py fuchs_N18` → `conformal_aut_fuchs_N18.txt` | distances `0.777654`, `1.212306`, `1.28738` of the second centre; groups Z2, Z2xZ2, D6 surface by surface |
-| Remark 6.8 | `conformal_aut_fuchs_N9.txt` | only X_6 has automorphisms of order 3 |
+| Remark 6.8 | `conformal_aut_fuchs_N9.txt` | the only `D6` lines are X_6 (`fuchs_N9#36`, `#37`): among the 4-extremal surfaces only X_6 has an automorphism of order 3, so only X_6 lies in the family y² = x⁶ + ax³ + 1 |
 | Remark 6.9 | `aut_groups.py` → `automorphism_groups.txt` (15 minutes) | the column after `Aut+:` takes only the values `C2`, `C2 x C2`, `D8`, `D12`, `C10` (only `fuchs_N10#18`) and `GL(2,3)` (only `fuchs_N8#77`); for `nec_` lines the column after `Isom:` takes only `C2`, `C2 x C2`, `D8`, `D12`; last line `373 surfaces, 0 problems`. GAP writes D8 and D12 for the dihedral groups of order 8 and 12 (D_4 and D_6 in the paper) |
+| Remark 6.10 (genus 4) | `genus4_covers.py` → `genus4_covers.txt` (10 minutes) | in the summary at the end: `X with 2 extremal disc(s), X+ with 4 extremal 2-packing(s): 5 surfaces`; for each of these five, `centres of the extremal discs of X at distances 0.000000, 1.855077 from O (r_c(18) = 1.855077: a vertex of the 18-gon)`, and the orbits `[[1, 2, 3, 4]]` (three surfaces) or `[[1, 2], [3, 4]]` (nec_N18#74 and #150, whose packings that are not lifts have K_j in the class of the double cover of the other one); `the 144 non-orientable surfaces are pairwise non-isometric ...: True` |
 | Section 6.2, non-covers | `report.py` → `report.txt` (part 6) | the induced anticonformal automorphisms of the classes that are not double covers |
 | Section 4, "Exact and floating point steps" | `margins.py` → `margins.txt` (8 minutes) | `largest deviation treated as an equality`: `1.77e-19`; `smallest gap that caused a rejection in Step 3`: `6.35e-6`; `candidates rejected in Step 4: 70; smallest gap of their confirmation …: 0.00271`; next line: `confirmed by a product of two side pairings: 70`, `10` of them with a longer list of admissible distances |
-| Section 5, Figures 1–3; Section 6, Figures 4 and 5 (Remarks 6.4 and 6.6); Section 7, Figure 6 | `figures.py` → folder `figures/` | needs `numpy` and `matplotlib` |
+| Section 5, Figures 1–3; Section 6, Figures 4, 5 and 6 (Remarks 6.4, 6.6 and 6.10); Section 7, Figure 7 | `figures.py` → folder `figures/` | needs `numpy` and `matplotlib` |
 | Section 7: pictures, coordinates and Dirichlet domains | `draw_surface.py`, `draw_all.py` (Sections 4.4–4.6 above) | `373 surfaces drawn, 0 problems` |
 
 To run a program, type `venv/bin/python` followed by its name, for instance `venv/bin/python report.py`.
 
 ---
 
-## 6. Recomputing everything from scratch (about 45 minutes)
+## 6. Recomputing everything from scratch (about 55 minutes)
 
 This repeats the whole computation, starting from the enumeration of the groups, and then compares every output
 file with the distributed one. The copy of the distributed data made in Section 3 is needed; the following command
@@ -588,13 +589,13 @@ PATH="$PWD/venv/bin:$PATH" ./regenerate_all.sh
 venv/bin/python compare_outputs.py groups_distributed groups
 ```
 
-The first command empties `groups/` and fills it again, printing the steps as they start (`[1/12]`, `[2/12]`, ...;
+The first command empties `groups/` and fills it again, printing the steps as they start (`[1/13]`, `[2/13]`, ...;
 most of them print nothing else while they work, so long silences are normal, and the computer must not go to sleep,
 which would pause the computation); the second one compares
 the two folders file by file, ignoring only the running times, and must end with
 
 ```
-51 files compared: 51 identical, 0 different, 0 missing
+52 files compared: 52 identical, 0 different, 0 missing
 ```
 
 `regenerate_all.sh` is a short list of commands; you can also run them one by one.
@@ -614,7 +615,8 @@ The paper reports two tests on surfaces outside its scope, which you can repeat 
   venv/bin/python -c "import json; from collections import Counter; r=json.load(open('groups/nec_N18_results.json')); print(Counter(x['n_packings'] for x in r if not x['orientable']))"
   ```
 
-  which prints `Counter({1: 122, 2: 22})`.
+  which prints `Counter({1: 122, 2: 22})`. The same surfaces and their double covers (2-extremal surfaces of genus 3)
+  are the subject of Remark 6.10 of the paper: `genus4_covers.py` (Section 5 above).
 
 ---
 
@@ -658,4 +660,5 @@ of the paper is implemented in `surface.py` (class `Surface`), using `field.py` 
 | confirmation that a candidate without α is not a centre | `Surface.confirm_not_centre` |
 | canonical form of a monodromy, identification of a surface in the catalogue | `identify_class.py` (`canonical_key`, `abc_from_xy`, `report`) |
 | isomorphism types of Isom(X) and Aut⁺(X) (Remark 6.9) | `aut_groups.py` (`cayley_table`, `gap_identify`), using `autfix.all_automorphisms` |
+| double covers of the genus 4 surfaces, invariance under the covering involution (Remark 6.10) | `genus4_covers.py` (`isometry_orbits`, `class_id`) |
 | enumeration of the groups (GAP) | `enumerate.g`, `run_enum.sh` |

@@ -381,6 +381,89 @@ def fig_X3_packings():
     return [sum(x) for x in shared], [len(x) for x in pk]
 
 
+def fig_genus3_cover_packings():
+    """Remark 6.10, Figure 6: the four extremal 2-packings of the genus three surface Y, canonical double cover of
+    nec_N18#74 (and of nec_N18#150), drawn in one fixed Dirichlet domain centred at a disc of the packing of the
+    uniformization. Packings 1, 2 are the lifts of the two discs of nec_N18#74 (invariant under its covering
+    involution), packings 3, 4 the two packings exchanged by it."""
+    import draw_surface as ds
+    from dirichlet import klein_to_poincare
+    from matplotlib.path import Path
+    from matplotlib.patches import PathPatch
+    from geom import mdet
+    G, S, label = ds.load('nec_N18', 74, True)
+    _, SX, _ = ds.load('nec_N18', 74, False)
+    t = [s_ for s_ in SX.sp if mdet(s_.Mn) < 0][0].Mn                 # a lift of the covering involution
+    # the packing of the uniformization first, then the other lift, then the two packings that are not lifts
+    S.packings.sort(key=lambda P: (G.reduce(mmul(mmul(minv(P['alpha']), t), P['alpha'])) is None,
+                                   G.reduce(P['alpha']) is None))
+    doms, chi = ds.dirichlet_domains(G, S, 'O')
+    dom = doms[0][1]
+    V = dom['verts']; m = len(V)
+    bnd = []
+    for i in range(m):
+        k1, k2 = V[i], V[(i + 1) % m]
+        bnd += [complex(klein_to_poincare(k1 + t * (k2 - k1))) for t in np.linspace(0, 1, 60)[:-1]]
+    ext = max(abs(z) for z in bnd)
+    s = float(mp.tanh(G.F.R / 2))
+    cents = G.centres(2 * float(mp.atanh(ext)) + 4 * float(G.F.H))[0]
+    # the centres of each packing that can meet the domain
+    pk = []
+    for P in S.packings:
+        A = P['alpha']
+        lst = []
+        for d, z, w in cents:
+            wd = disc(act(A, z))
+            if abs(wd) < 0.995 and float(2 * mp.atanh(abs(wd))) < 2 * float(mp.atanh(ext)) + 2 * float(G.F.H):
+                lst.append((wd, mmul(A, G.word_num(w))))
+        pk.append(lst)
+    near = lambda z, L: any(abs(z - w) < 1e-7 for w, _ in L)
+    shared = [[any(near(wd, pk[j]) for j in range(len(pk)) if j != i) for wd, _ in pk[i]] for i in range(len(pk))]
+    cols = [('#dbe9f6', '#9cbde0'), ('#f8dcdc', '#e3a1a1'), ('#dcefd9', '#9fd09a'), ('#efe2f5', '#c9a6dc')]
+    fig, axes = plt.subplots(2, 2, figsize=(7.4, 7.6))
+    for idx, ax in enumerate(axes.flat):
+        ax.set_aspect('equal'); ax.axis('off')
+        clip = PathPatch(Path([(z.real, z.imag) for z in bnd] + [(bnd[0].real, bnd[0].imag)], closed=True),
+                         transform=ax.transData, fc='none', ec='none')
+        ax.add_patch(clip)
+        light, dark = cols[idx]
+        for (wd, M), sh in zip(pk[idx], shared[idx]):
+            a = abs(wd) ** 2
+            c = wd * (1 - s * s) / (1 - a * s * s)
+            r = s * (1 - a) / (1 - a * s * s)
+            circ = Circle((c.real, c.imag), r, fc=dark if sh else light, ec='0.5', lw=0.4)
+            ax.add_patch(circ); circ.set_clip_path(clip)
+            vs = ds.polygon_disc_vertices(G, M)
+            vs.sort(key=lambda v: np.angle((v - wd) / (1 - np.conj(wd) * v)))
+            for i in range(len(vs)):
+                pts = geodesic_pts(vs[i], vs[(i + 1) % len(vs)])
+                ln, = ax.plot(pts.real, pts.imag, color='0.45', lw=0.5)
+                ln.set_clip_path(clip)
+        ax.plot([z.real for z in bnd + bnd[:1]], [z.imag for z in bnd + bnd[:1]], color='C2', lw=1.2)
+        # side pairings of the domain: sides with the same number are identified ("~" for orientation reversing)
+        from geom import mdet as _mdet
+        labs, num = {}, 0
+        for i_ in range(m):
+            if i_ in labs:
+                continue
+            num += 1
+            labs[i_] = num
+            if dom['partner'][i_] is not None:
+                labs[dom['partner'][i_]] = num
+        for i_ in range(m):
+            mid = complex(klein_to_poincare((V[i_] + V[(i_ + 1) % m]) / 2))
+            t_ = mid * (1 - 0.10 * (1 - abs(mid) ** 2))
+            ax.text(t_.real, t_.imag, '%d%s' % (labs[i_], '~' if _mdet(dom['mats'][i_]) < 0 else ''), ha='center',
+                    va='center', fontsize=5.5, color='C2')
+        ax.plot([0], [0], 'o', color='k', ms=2)
+        r0 = ext * 1.06
+        ax.set_xlim(-r0, r0); ax.set_ylim(-r0, r0)
+        ax.set_title('packing %d (%s)' % (idx + 1, 'lift' if idx < 2 else 'not a lift'), fontsize=9, pad=10)
+    fig.savefig(OUT + 'fig_genus3_cover_packings.pdf', bbox_inches='tight')
+    plt.close(fig)
+    return [sum(x) for x in shared], [len(x) for x in pk]
+
+
 if __name__ == '__main__':
     pairs = fig_X6_domain(); print('domain done', pairs)
     print('ED-cycles', fig_edcycles())
@@ -388,3 +471,4 @@ if __name__ == '__main__':
     print('Dirichlet domains of X6', fig_dirichlet_X6())
     print('Bolza and y^2=x^5-1', fig_classical_curves())
     print('X3', fig_X3_packings())
+    print('genus 3 double cover (Remark 6.10)', fig_genus3_cover_packings())

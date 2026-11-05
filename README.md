@@ -51,6 +51,10 @@ Checks and analysis (each one writes the file indicated in `groups/`)
   automorphisms included (Remark 6.9 of the paper). GAP identifies each group from its multiplication table and
   uses its own notation: C2 is the cyclic group of order 2, D12 the dihedral group of order 12 (D_6 in the paper).
   About 15 minutes.
+* `genus4_covers.py` → `genus4_covers.txt`: the 144 non-orientable extremal surfaces of genus 4 of the external test
+  (`nec_N18`) and their canonical double covers, 2-extremal surfaces of genus 3: which packings of the double cover
+  are lifts (invariant under the covering involution), the classes of the groups K_j and the orbits of the isometry
+  group (Remark 6.10 of the paper). About 10 minutes.
 * `conformal_aut.py` → `conformal_aut_fuchs_N9.txt`, `conformal_aut_fuchs_N18.txt`: Aut⁺(X) for the families
   `fuchs_N9` and `fuchs_N18` only (Theorem 6.3(iv), Remarks 6.7 and 6.8), one line per surface, comparing the orders
   of its elements with those of the elements induced by the triangle group.
@@ -80,7 +84,7 @@ Checks and analysis (each one writes the file indicated in `groups/`)
 * `draw_all.py` → folder `surface_figures/all/`: the pictures (packings, isometries, Dirichlet domains, ED-cycles of
   Step 3 with their text files) of all the
   373 surfaces, with a table and a consistency check against the data files (`checks.txt`).
-* `figures.py` → folder `figures/`: the figures of the paper (Figures 4–6 use `draw_surface.py` and `dirichlet.py`).
+* `figures.py` → folder `figures/`: the figures of the paper (Figures 4–7 use `draw_surface.py` and `dirichlet.py`).
 * `regenerate_all.sh`, `compare_outputs.py`: recompute everything and compare with the distributed data.
 * `wordfmt.py`: writes words in a, b, c with powers, `(ca)^3cb` for `cacacacb` (used in the tables and reports).
 * `outfile.py`: small helper that copies the printed output of a program to its file.
