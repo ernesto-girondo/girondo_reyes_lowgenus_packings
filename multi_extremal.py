@@ -5,7 +5,7 @@ alpha Delta(2,3,9) alpha^-1. The two triangle groups are commensurable and L_18 
 different embeddings), so the side pairings of K can be rewritten over L_9 and the 4-packing search of surface.py
 can be run with the geometry of Delta(2,3,9). For every 4-packing found, K_j = alpha^-1 K alpha < Delta(2,3,9) is
 identified with its class in groups/fuchs_N9.jsonl (Delta^pm-key and Delta-key).
-Generalizes cross_check_9_18.py (which only treats the 9th class, X0).
+Generalizes cross_check_9_18.py (which only treats the 9th class, X6).
 Usage: python3 multi_extremal.py          (all 9 classes of fuchs_N18, about one minute)
 """
 import json

@@ -54,9 +54,9 @@ FAMILIES = ['nec_N12', 'nec_N9', 'nec_N8', 'nec_N7', 'fuchs_N18', 'fuchs_N12', '
             'fuchs_N7', 'nec_N18']
 
 NAMES = {   # the surfaces that the paper calls by name (table of Section 4.1 of VERIFYING.md)
-    'fuchs_N18#9': 'X_0 of Theorem 6.5 (X_6 of Girondo-Gonzalez-Diez), as a 1-extremal surface',
-    'fuchs_N9#36': 'X_0 of Theorem 6.5, as a 4-extremal surface (the group K_orb)',
-    'fuchs_N9#37': 'X_0 of Theorem 6.5, as a 4-extremal surface (the group K_inv)',
+    'fuchs_N18#9': 'X_6 of Girondo-Gonzalez-Diez (Theorem 6.5), as a 1-extremal surface',
+    'fuchs_N9#36': 'X_6 of Theorem 6.5, as a 4-extremal surface (the group K_orb)',
+    'fuchs_N9#37': 'X_6 of Theorem 6.5, as a 4-extremal surface (the group K_inv)',
     'fuchs_N18#2': 'X_2 of Girondo-Gonzalez-Diez, as a 1-extremal surface',
     'fuchs_N9#29': 'X_2 of Girondo-Gonzalez-Diez, as a 4-extremal surface',
     'fuchs_N18#3': 'X_3 of Remark 6.6, as a 1-extremal surface',

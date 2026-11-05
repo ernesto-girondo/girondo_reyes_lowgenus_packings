@@ -26,7 +26,7 @@ negative imaginary axis):
 The centres are those of the packings found and verified exactly by the search (surface.py); the picture
 itself is drawn with floating point numbers.
 
-With --edcycles the picture shows Step 3 of the search (Section 4 of the paper, Figure 2 for X_0): the central
+With --edcycles the picture shows Step 3 of the search (Section 4 of the paper, Figure 2 for X_6): the central
 polygon, its circumscribed disc (dashed) and the search disc (dotted, 0.1 larger), the ED-cycles
 b_s(d) = {z : d(z, s z) = d} of the two side pairings s_1 (green) and s_2 (orange) for the admissible distances d
 used, all their intersection points in the search disc (small grey dots: discarded by the displacement test) and

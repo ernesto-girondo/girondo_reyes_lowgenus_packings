@@ -41,7 +41,7 @@ point. It cannot be reduced to an identity that can be checked independently. It
   computers, with different versions of GAP);
 * by following the search of any particular surface step by step: `check_surface.py --details` lists every
   admissible distance, every intersection point of the ED-cycles and what happens to it, and
-  `draw_surface.py --edcycles` draws them (Section 4.3); this is what Figure 2 of the paper shows for X_0;
+  `draw_surface.py --edcycles` draws them (Section 4.3); this is what Figure 2 of the paper shows for X_6;
 * by reading the code: Section 9 says which function implements each step of the algorithm of the paper. The
   search uses floating point numbers (40 significant digits) only to decide whether a displacement is an
   admissible distance, and every such decision is taken with a wide margin; `margins.py` measures these margins
@@ -56,7 +56,7 @@ same surface, Weierstrass points) are computed from the stored matrices α and w
 short script listed in Section 5.
 
 A few statements are proved by hand in the paper from computed data and are not themselves the output of a
-script: the equations of X_0 (Theorem 6.5(ii)), the identification of Bolza's curve and of y² = x⁵ − 1
+script: the equations of X_6 (Theorem 6.5(ii)), the identification of Bolza's curve and of y² = x⁵ − 1
 (Remark 6.4) from their automorphism groups, and the identification of the classes with N = 18 with the polygons of
 Fricke and Klein (Remark 6.7). Section 5 says which computed facts they use.
 
@@ -235,7 +235,7 @@ are:
 
 | in the paper | name here |
 |---|---|
-| X_0 (Theorem 6.5), also X_6 of Girondo–González-Diez | `fuchs_N18#9` (as a 1-extremal surface) = `fuchs_N9#36` = `fuchs_N9#37` (as a 4-extremal surface) |
+| X_6 of Girondo–González-Diez (Theorem 6.5) | `fuchs_N18#9` (as a 1-extremal surface) = `fuchs_N9#36` = `fuchs_N9#37` (as a 4-extremal surface) |
 | X_2 of Girondo–González-Diez | `fuchs_N18#2` = `fuchs_N9#29` |
 | X_3 (Remark 6.6) | `fuchs_N18#3` = `fuchs_N9#21` |
 | X_1, X_4, X_5, X_7, X_8, mirror image of X_8 (Remark 6.7) | `fuchs_N18#1`, `#4`, `#8`, `#5`, `#6`, `#7` |
@@ -488,7 +488,7 @@ It is nec_N9#2.
 The thesis numbers its sheets differently from GAP 4.12, but the program does not depend on the numbering: the
 surface is `nec_N9#2`, with the hidden disc centre found in the thesis.
 
-**Example 2: a dessin.** The monodromy of the dessin of type (2,3,18) of X_0 (the 18-gon of Figure 1):
+**Example 2: a dessin.** The monodromy of the dessin of type (2,3,18) of X_6 (the 18-gon of Figure 1):
 
 ```
 venv/bin/python identify_class.py 18 xy "(1,2)(3,5)(4,7)(6,10)(8,12)(9,11)(13,16)(14,17)(15,18)" "(1,3,6)(2,4,8)(5,9,13)(7,11,15)(10,14,18)(12,16,17)"
@@ -498,7 +498,7 @@ prints, after the first three lines,
 
 ```
 It is fuchs_N18#9.
-  in the paper: X_0 of Theorem 6.5 (X_6 of Girondo-Gonzalez-Diez), as a 1-extremal surface
+  in the paper: X_6 of Girondo-Gonzalez-Diez (Theorem 6.5), as a 1-extremal surface
   packings: 4;  isometry group induced by the triangle group: order 6, with an anticonformal isometry
   disc centres of the other packings (disc model): 0.36472212-0.63171723i ; -0.12666666-0.71836233i ; 0.68545336-0.24948462i
   isometry group: D24 [24,6]  conformal automorphisms: D12 [12,4]
@@ -547,20 +547,20 @@ Each line gives the program, the file it writes in `groups/` (which you can comp
 | Theorem 6.1, last two sentences | `isometry_orbits.py` → `isometry_orbits.txt` | for every `nec_` family: `not transitive on packings: none` and `isometric surfaces: none` |
 | Theorem 6.2 | `report.py` → `report.txt` (part 3) | `same number of packings: all`; the four exceptions to "twice" (order 2 against 12) |
 | Theorem 6.2, Appendix A | `summary_tables.py` → `double_covers.txt` | the table of Appendix A, line by line |
-| Theorem 6.3, the table | `report.py` → `report.txt` (part 5) | e.g. `N= 9 k= 4  per Delta^pm-class: 1(8)  2(13)  4(1)  5(2)`: the two classes with 5 packings are X_0 (see (i)), counted once in the paper |
+| Theorem 6.3, the table | `report.py` → `report.txt` (part 5) | e.g. `N= 9 k= 4  per Delta^pm-class: 1(8)  2(13)  4(1)  5(2)`: the two classes with 5 packings are X_6 (see (i)), counted once in the paper |
 | Theorem 6.3(i) | `isometry_orbits.py` → `isometry_orbits.txt` | the only pair of classes giving isometric surfaces: `('fuchs_N9#36', 'fuchs_N9#37')` |
 | Theorem 6.3(ii) | `identify2.py` → `surface_identifications.txt` (7 minutes) | `with only hidden anticonformal automorphisms=  0` in all families; the numbers 9, 25, 20, 36, 77, 155 are the classes in Δ, minus one for N = 9 because of (i) |
 | Theorem 6.3(iii) | `report.py` → `report.txt` (part 5); `draw_surface.py fuchs_N9 29` (and `21`, `37`) → `surface_figures/fuchs_N9_29.txt` | only `4(1)` and `5(2)` above 2; the line `discs shared by two different packings`, which is `none` for every other surface (column `shared_discs` of `surface_figures/all/index.csv`) |
-| Theorem 6.3(iv) | `conformal_aut.py fuchs_N9` → `conformal_aut_fuchs_N9.txt` | `summary (one line per Delta^pm-class): {'D6': 2, 'Z2': 6, 'Z2xZ2': 16}`; the two D6 lines are X_0 |
+| Theorem 6.3(iv) | `conformal_aut.py fuchs_N9` → `conformal_aut_fuchs_N9.txt` | `summary (one line per Delta^pm-class): {'D6': 2, 'Z2': 6, 'Z2xZ2': 16}`; the two D6 lines are X_6 |
 | Theorem 6.3(v) | `multi_extremal.py` → `multi_extremal.txt` | only `fuchs_N18#2`, `#3`, `#9` have 4-packings: 2, 4 and 5 of them |
-| Theorem 6.3(vi) | `isometry_orbits.py` → `isometry_orbits.txt` | the only non-transitive cases are `fuchs_N9#36` and `fuchs_N9#37`, i.e. X_0 |
+| Theorem 6.3(vi) | `isometry_orbits.py` → `isometry_orbits.txt` | the only non-transitive cases are `fuchs_N9#36` and `fuchs_N9#37`, i.e. X_6 |
 | Theorem 6.5(i) | `fullaut.py` → `full_aut_4_5_packings.txt`; `cross_check_9_18.py` → `cross_check_9_18.txt` | `|Aut(X)| (incl. anticonformal) = ... = 24`; the five 4-packings of `fuchs_N18#9` (the group K_18 of the paper), four in the class `#36` (K_orb) and one in `#37` (K_inv) |
-| Theorem 6.5(ii) | (proved in the paper) | uses Aut⁺(X_0) ≅ D_6 and the quotient orbifold, from the two lines above |
-| Theorem 6.5(iii) | `weierstrass.py` → `weierstrass_X0.txt` | in the block `Frame K9 (N=18, extremal disc)`: distances `0.92753857` (angles 60°, 180°, −60°) and `1.4454816` (angles 0°, ±120°); each point appears once or twice, from the two triangles that contain it |
+| Theorem 6.5(ii) | (proved in the paper) | uses Aut⁺(X_6) ≅ D_6 and the quotient orbifold, from the two lines above |
+| Theorem 6.5(iii) | `weierstrass.py` → `weierstrass_X6.txt` | in the block `Frame K9 (N=18, extremal disc)`: distances `0.92753857` (angles 60°, 180°, −60°) and `1.4454816` (angles 0°, ±120°); each point appears once or twice, from the two triangles that contain it |
 | Remark 6.4 | `groups/surfaces_summary.csv` | `fuchs_N8#77` and `fuchs_N10#18`: one packing, induced isometry groups of order 96 and 20 |
 | Remark 6.6 (X_3) | `fullaut.py` → `full_aut_4_5_packings.txt`; `autfix.py groups/fuchs_N9.jsonl 21` (prints only) | `|Aut(X)| (incl. anticonformal) = 2 x 4 = 8` for `fuchs_N9#21`; the line `conformal involution from packing 2 : 6 fixed points`, at distances 1.034, 1.754, 1.283, 2.066, 2.709, 2.559 |
 | Remark 6.7 (k = 1) | `report.py` → `report.txt` (part 7); `conformal_aut.py fuchs_N18` → `conformal_aut_fuchs_N18.txt` | distances `0.777654`, `1.212306`, `1.28738` of the second centre; groups Z2, Z2xZ2, D6 surface by surface |
-| Remark 6.8 | `conformal_aut_fuchs_N9.txt` | only X_0 has automorphisms of order 3 |
+| Remark 6.8 | `conformal_aut_fuchs_N9.txt` | only X_6 has automorphisms of order 3 |
 | Remark 6.9 | `aut_groups.py` → `automorphism_groups.txt` (15 minutes) | the column after `Aut+:` takes only the values `C2`, `C2 x C2`, `D8`, `D12`, `C10` (only `fuchs_N10#18`) and `GL(2,3)` (only `fuchs_N8#77`); for `nec_` lines the column after `Isom:` takes only `C2`, `C2 x C2`, `D8`, `D12`; last line `373 surfaces, 0 problems`. GAP writes D8 and D12 for the dihedral groups of order 8 and 12 (D_4 and D_6 in the paper) |
 | Section 6.2, non-covers | `report.py` → `report.txt` (part 6) | the induced anticonformal automorphisms of the classes that are not double covers |
 | Section 4, "Exact and floating point steps" | `margins.py` → `margins.txt` (8 minutes) | `largest deviation treated as an equality`: `1.77e-19`; `smallest gap that caused a rejection in Step 3`: `6.35e-6`; `candidates rejected in Step 4: 70; smallest gap of their confirmation …: 0.00271`; next line: `confirmed by a product of two side pairings: 70`, `10` of them with a longer list of admissible distances |

@@ -55,10 +55,10 @@ Checks and analysis (each one writes the file indicated in `groups/`)
   `fuchs_N9` and `fuchs_N18` only (Theorem 6.3(iv), Remarks 6.7 and 6.8), one line per surface, comparing the orders
   of its elements with those of the elements induced by the triangle group.
 * `fullaut.py` → `full_aut_4_5_packings.txt`: for the surfaces with 4 or 5 packings, how each packing contributes to
-  the isometry group (Theorem 6.5(i), Remark 6.6), and the fixed points of the involutions of X_0.
+  the isometry group (Theorem 6.5(i), Remark 6.6), and the fixed points of the involutions of X_6.
 * `multi_extremal.py` → `multi_extremal.txt`: the 1-extremal surfaces that are also 4-extremal.
-* `cross_check_9_18.py` → `cross_check_9_18.txt`: the five 4-packings of X_0 seen from the polygons of its 1-extremal tessellation (the 18-gons).
-* `weierstrass.py` → `weierstrass_X0.txt`: Weierstrass points of X_0.
+* `cross_check_9_18.py` → `cross_check_9_18.txt`: the five 4-packings of X_6 seen from the polygons of its 1-extremal tessellation (the 18-gons).
+* `weierstrass.py` → `weierstrass_X6.txt`: Weierstrass points of X_6.
 * `margins.py` → `margins.txt`: the safety margins of the floating point decisions of the search (Section 4 of the
   paper, "Exact and floating point steps"); about 8 minutes.
 * `identify_class.py`: identifies a surface given by its monodromy (the permutations of a, b, c, or the monodromy
@@ -72,7 +72,7 @@ Checks and analysis (each one writes the file indicated in `groups/`)
   of all its extremal packings; fixed points and mirrors of all its isometries), e.g.
   `python3 draw_surface.py fuchs_N9 21`. Uses `isometries.py`. With `--edcycles`, a picture of Step 3 of the search
   (the ED-cycles of the two side pairings, all their intersection points in the search disc and the candidates, as
-  Figure 2 of the paper does for X_0), with a text file listing every point; the picture can be crowded when many
+  Figure 2 of the paper does for X_6), with a text file listing every point; the picture can be crowded when many
   ED-cycles overlap (typically for N = 7, 8), the text file always has the complete information.
 * `dirichlet.py`: Dirichlet domains centred at the disc centres, with their side pairings and checks (vertex
   cycles, area); `python3 draw_surface.py fuchs_N9 21 --dirichlet-all` draws them.

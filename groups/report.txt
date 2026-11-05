@@ -48,7 +48,7 @@ notation m(n): n classes have exactly m packings
   N= 9 k= 4  per Delta^pm-class: 1(8)  2(13)  4(1)  5(2)    per Delta-class: 1(12)  2(22)  4(1)  5(2)
   N= 8 k= 6  per Delta^pm-class: 1(33)  2(24)    per Delta-class: 1(49)  2(28)
   N= 7 k=12  per Delta^pm-class: 1(60)  2(30)    per Delta-class: 1(110)  2(45)
-  (for N=9 the two classes with 5 packings, fuchs_N9#36 and #37, are the same surface X0: see identify2.py)
+  (for N=9 the two classes with 5 packings, fuchs_N9#36 and #37, are the same surface X6: see identify2.py)
 
 === 6. Fuchsian classes with induced anticonformal symmetry that are not double covers (Section 6.2) ===
   N=12: 11 non-orientable surfaces -> 11 distinct Fuchsian classes (all in the list: True); classes with induced anticonformal symmetry: 15, of which double covers: 11, not double covers: 4

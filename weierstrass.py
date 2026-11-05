@@ -1,4 +1,4 @@
-"""Weierstrass points of X0 = fuchs_N18#9 = fuchs_N9#36 = fuchs_N9#37 (genus 2, D6 curve).
+"""Weierstrass points of X6 = fuchs_N18#9 = fuchs_N9#36 = fuchs_N9#37 (genus 2, D6 curve).
 In the frame of K37 the hyperelliptic involution is induced by ab; its fixed points are 6 edge midpoints.
 We transport them to the frames of K36 and K9 (N=18) through the hidden packings."""
 import json, mpmath as mp
@@ -9,7 +9,7 @@ from gapiface import coset_action_from_words, reduce_word
 from batch import parity_and_words, automorphisms
 from wordfmt import compress
 from outfile import tee
-tee('groups/weierstrass_X0.txt')
+tee('groups/weierstrass_X6.txt')
 mp.mp.dps = 40
 i0 = mp.mpc(0, 1)
 

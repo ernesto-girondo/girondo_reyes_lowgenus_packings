@@ -26,7 +26,7 @@ step "independent verification of the packings (about 1 minute; one line per fam
 python3 verify_packings.py < /dev/null
 step "isometries between packings and surfaces (about 1 minute)";  python3 isometry_orbits.py > /dev/null
 step "hidden automorphisms, real structures (about 7 minutes)"; python3 identify2.py > /dev/null
-step "surfaces with 4 and 5 packings, X0 (about 1 minute)";        python3 fullaut.py > /dev/null; python3 cross_check_9_18.py > /dev/null
+step "surfaces with 4 and 5 packings, X6 (about 1 minute)";        python3 fullaut.py > /dev/null; python3 cross_check_9_18.py > /dev/null
 python3 weierstrass.py > /dev/null; python3 multi_extremal.py > /dev/null
 step "safety margins of the floating point decisions (about 8 minutes)"; python3 margins.py > /dev/null
 step "conformal automorphism groups, N=18 (about 1 minute)";  python3 conformal_aut.py fuchs_N18 > /dev/null

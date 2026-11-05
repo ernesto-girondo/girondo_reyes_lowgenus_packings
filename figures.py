@@ -72,18 +72,18 @@ def setup(ax, r=1.0):
     ax.set_aspect('equal'); ax.axis('off')
 
 
-# ---------------------------------------------------------------- data of X0 (the 18-gon of Figure 1)
-def X0_data():
+# ---------------------------------------------------------------- data of X6 (the 18-gon of Figure 1)
+def X6_data():
     G18 = Geometry(18)
     g = [json.loads(l) for l in open('groups/fuchs_N18.jsonl') if l.strip()][8]
     action = {'d': g['d'], 'a': [x - 1 for x in g['a']], 'b': [x - 1 for x in g['b']], 'c': [x - 1 for x in g['c']]}
-    S = Surface(G18, action, label='X0')
+    S = Surface(G18, action, label='X6')
     S.analyse(verbose=False)
     return G18, S
 
 
-def fig_X0_domain():
-    G, S = X0_data()
+def fig_X6_domain():
+    G, S = X6_data()
     N = 18
     fig, ax = plt.subplots(figsize=(5.2, 5.2))
     setup(ax, 0.95)
@@ -123,13 +123,13 @@ def fig_X0_domain():
         ax.plot([z.real], [z.imag], 's', color='C0', ms=4)
     ax.plot([0], [0], 'o', color='C3', ms=5)
     ax.text(0.03, 0.03, r'$O$', color='C3')
-    fig.savefig(OUT + 'fig_X0_domain.pdf', bbox_inches='tight')
+    fig.savefig(OUT + 'fig_X6_domain.pdf', bbox_inches='tight')
     plt.close(fig)
     return pairs
 
 
 def fig_edcycles():
-    G, S = X0_data()
+    G, S = X6_data()
     fig, ax = plt.subplots(figsize=(5.2, 5.2))
     rc = float(mp.tanh(G.F.H / 2))
     setup(ax, rc * 1.15)
@@ -191,7 +191,7 @@ def fig_edcycles():
 
 
 def fig_two_tessellations():
-    """the 18-gon of X0 with the nonagons of the Aut-invariant 4-packing and of one of the other four"""
+    """the 18-gon of X6 with the nonagons of the Aut-invariant 4-packing and of one of the other four"""
     src = open('cross_check_9_18.py').read().split("from gapiface import")[0].replace("S.analyse(verbose=True)", "S.analyse(verbose=False)")
     ns = {}
     exec(src, ns)
@@ -229,8 +229,8 @@ def fig_two_tessellations():
     plt.close(fig)
 
 
-def fig_dirichlet_X0():
-    """Dirichlet domains of X_0 (frame of the 37th class of index 36 in Delta(2,3,9)) centred at O, a disc of the
+def fig_dirichlet_X6():
+    """Dirichlet domains of X_6 (frame of the 37th class of index 36 in Delta(2,3,9)) centred at O, a disc of the
     invariant 4-packing, and at a disc of one of the other four packings (Section 7 of the paper)"""
     import draw_surface as ds
     G, S, label = ds.load('fuchs_N9', 37, False)
@@ -247,7 +247,7 @@ def fig_dirichlet_X0():
     for ax, t in zip(axes, ['centred at a disc of the invariant packing', 'centred at a disc of another packing']):
         ax.set_xlim(-r, r); ax.set_ylim(-r, r)
         ax.set_title(t, fontsize=9)
-    fig.savefig(OUT + 'fig_dirichlet_X0.pdf', bbox_inches='tight')
+    fig.savefig(OUT + 'fig_dirichlet_X6.pdf', bbox_inches='tight')
     plt.close(fig)
     return [(i, d['checks']['sides'], d['checks']['cycles']) for i, d in (doms[0], other)]
 
@@ -382,9 +382,9 @@ def fig_X3_packings():
 
 
 if __name__ == '__main__':
-    pairs = fig_X0_domain(); print('domain done', pairs)
+    pairs = fig_X6_domain(); print('domain done', pairs)
     print('ED-cycles', fig_edcycles())
     fig_two_tessellations(); print('tessellations done')
-    print('Dirichlet domains of X0', fig_dirichlet_X0())
+    print('Dirichlet domains of X6', fig_dirichlet_X6())
     print('Bolza and y^2=x^5-1', fig_classical_curves())
     print('X3', fig_X3_packings())

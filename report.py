@@ -77,7 +77,7 @@ for name in FUCHS:
     c2 = Counter(r['n_packings'] for r in res[name])
     P('  N=%2d k=%2d  per Delta^pm-class: %s    per Delta-class: %s' % (
         res[name][0]['N'], res[name][0]['k'], dist(c), dist(c2)))
-P('  (for N=9 the two classes with 5 packings, fuchs_N9#36 and #37, are the same surface X0: see identify2.py)')
+P('  (for N=9 the two classes with 5 packings, fuchs_N9#36 and #37, are the same surface X6: see identify2.py)')
 
 P('')
 P('=== 6. Fuchsian classes with induced anticonformal symmetry that are not double covers (Section 6.2) ===')
