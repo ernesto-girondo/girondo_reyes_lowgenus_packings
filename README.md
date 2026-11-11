@@ -1,6 +1,6 @@
 # Extremal disc packings in surfaces of minimal genus — programs and data
 
-*Version of 31 October 2026.*
+*Version of 31 October 2026.* Archived at Zenodo: [doi:10.5281/zenodo.24136024](https://doi.org/10.5281/zenodo.24136024) (all versions).
 
 *This file and `VERIFYING.md` are written in Markdown, a plain-text format that GitHub, GitLab and most editors display formatted. A formatted copy of each is included as `README.pdf` and `VERIFYING.pdf`; the `.md` files are the reference versions.*
 

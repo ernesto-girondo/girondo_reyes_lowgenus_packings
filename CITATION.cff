@@ -10,3 +10,5 @@ authors:
     affiliation: "Universidad San Sebastián"
 type: software
 license: MIT
+doi: 10.5281/zenodo.24136024
+repository-code: "https://github.com/ernesto-girondo/girondo_reyes_lowgenus_packings"
