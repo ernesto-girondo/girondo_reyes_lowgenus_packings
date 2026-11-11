@@ -4,7 +4,7 @@
 
 *This file and `VERIFYING.md` are written in Markdown, a plain-text format that GitHub, GitLab and most editors display formatted. A formatted copy of each is included as `README.pdf` and `VERIFYING.pdf`; the `.md` files are the reference versions.*
 
-Programs and data for the paper by E. Girondo and C. Reyes, *Extremal disc packings in compact hyperbolic surfaces
+Programs and data for the paper by E. Girondo and C. Reyes-Monsalve, *Extremal disc packings in compact hyperbolic surfaces
 of minimal genus*. They determine all the extremal k-packings of all the k-extremal surfaces of genus 2
 (orientable) and genus 3 (non-orientable), 423 surfaces in total, every packing being confirmed by an exact algebraic
 identity.
@@ -138,13 +138,13 @@ Checks and analysis (each one writes the file indicated in `groups/`)
 
 ## Validation
 
-* The surface K_(9,−,2) worked out in detail in Section 7.1 of C. Reyes' thesis is reproduced: the permutations of
+* The surface K_(9,−,2) worked out in detail in Section 7.1 of C. Reyes-Monsalve's thesis is reproduced: the permutations of
   a, b, c printed there define exactly the class `nec_N9#2` (with a different numbering of the cosets), and the
   program finds the same first 15 admissible distances (d_0, …, d_14), a fundamental domain with 8 side pairings as
   there, the same hidden centre (≈ 0.4475 + 0.0165i) and two packings, also two for the double cover. The
   identification can be repeated with `identify_class.py` (Example 1 of Section 4.7 of `VERIFYING.md`).
 * All the class counts agree with Table 2 of the paper.
-* The 50 non-orientable surfaces agree with the classification in C. Reyes' thesis.
+* The 50 non-orientable surfaces agree with the classification in C. Reyes-Monsalve's thesis.
 * The eight 1-extremal surfaces of genus 2 agree in every detail with Girondo–González-Diez, Israel J. Math. 132
   (2002).
 * The 144 non-orientable extremal surfaces of genus 4 reproduce Nakamura, Conform. Geom. Dyn. 13 (2009): 22 with
@@ -169,7 +169,7 @@ to cite this collection.
 
 ## Credits
 
-The method and earlier versions of the programs are due to E. Girondo and C. Reyes (Chapter 7 of C. Reyes'
+The method and earlier versions of the programs are due to E. Girondo and C. Reyes-Monsalve (Chapter 7 of C. Reyes-Monsalve's
 thesis). Claude (Anthropic), an AI model, under their direction, organized, cleaned and restructured those programs
 into the present ones, ran the computations, organized the data, wrote, at their request and to give more complete
 information, the auxiliary programs (pictures, Dirichlet domains, automorphism groups, identification of a surface

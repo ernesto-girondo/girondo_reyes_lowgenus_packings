@@ -2,7 +2,7 @@ This folder contains programs and data. They are distributed under two licenses.
 
 1. Programs (the files *.py, *.g, *.sh): MIT License
 
-Copyright (c) 2026 Ernesto Girondo and Cristian Reyes
+Copyright (c) 2026 Ernesto Girondo and Cristian Reyes-Monsalve
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation
@@ -20,9 +20,9 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 2. Data, pictures and documentation (the folders groups/, surface_figures/, figures/ and the files README.*,
    VERIFYING.*): Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2026 Ernesto Girondo and Cristian Reyes
+Copyright (c) 2026 Ernesto Girondo and Cristian Reyes-Monsalve
 
 You are free to share and adapt this material for any purpose, provided that you give appropriate credit (cite the
-paper E. Girondo and C. Reyes, "Extremal disc packings in compact hyperbolic surfaces of minimal genus", or this
+paper E. Girondo and C. Reyes-Monsalve, "Extremal disc packings in compact hyperbolic surfaces of minimal genus", or this
 collection of programs and data), provide a link to the license and indicate if changes were made.
 Full text of the license: https://creativecommons.org/licenses/by/4.0/legalcode

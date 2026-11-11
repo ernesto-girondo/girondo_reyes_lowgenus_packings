@@ -1,6 +1,6 @@
 # How to verify the results of the paper
 
-**E. Girondo and C. Reyes, *Extremal disc packings in compact hyperbolic surfaces of minimal genus***
+**E. Girondo and C. Reyes-Monsalve, *Extremal disc packings in compact hyperbolic surfaces of minimal genus***
 
 This guide is for readers who want to check, by themselves, what the paper says about one surface or about all of
 them. It assumes no knowledge of the programs, only of the paper. Every command below has been run, exactly as
@@ -466,7 +466,7 @@ the paper: a, b, c are the reflections in the sides of the triangle described in
 that ab, bc and ca have orders 2, 3 and N, and x = ab, y = bc; permutations act on the right and products are
 read from left to right.
 
-**Example 1: the surface of Section 7.1 of C. Reyes' thesis.** The thesis prints the permutations of a, b, c for
+**Example 1: the surface of Section 7.1 of C. Reyes-Monsalve's thesis.** The thesis prints the permutations of a, b, c for
 its group K_(9,−,2). Copying them:
 
 ```
