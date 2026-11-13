@@ -1,11 +1,11 @@
 # Extremal disc packings in surfaces of minimal genus — programs and data
 
-*Version of 31 October 2026.* Archived at Zenodo: [doi:10.5281/zenodo.24136024](https://doi.org/10.5281/zenodo.24136024) (all versions).
+*Version of 13 November 2026.* Archived at Zenodo: [doi:10.5281/zenodo.24136024](https://doi.org/10.5281/zenodo.24136024) (all versions). Paper: [arXiv:2611.15477](https://arxiv.org/abs/2611.15477).
 
 *This file and `VERIFYING.md` are written in Markdown, a plain-text format that GitHub, GitLab and most editors display formatted. A formatted copy of each is included as `README.pdf` and `VERIFYING.pdf`; the `.md` files are the reference versions.*
 
 Programs and data for the paper by E. Girondo and C. Reyes-Monsalve, *Extremal disc packings in compact hyperbolic surfaces
-of minimal genus*. They determine all the extremal k-packings of all the k-extremal surfaces of genus 2
+of minimal genus*, [arXiv:2611.15477](https://arxiv.org/abs/2611.15477). They determine all the extremal k-packings of all the k-extremal surfaces of genus 2
 (orientable) and genus 3 (non-orientable), 423 surfaces in total, every packing being confirmed by an exact algebraic
 identity.
 

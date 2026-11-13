@@ -12,3 +12,17 @@ type: software
 license: MIT
 doi: 10.5281/zenodo.24136024
 repository-code: "https://github.com/ernesto-girondo/girondo_reyes_lowgenus_packings"
+preferred-citation:
+  type: article
+  title: "Extremal disc packings in compact hyperbolic surfaces of minimal genus"
+  authors:
+    - family-names: Girondo
+      given-names: Ernesto
+    - family-names: Reyes-Monsalve
+      given-names: Cristian
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2611.15477"
+  doi: 10.48550/arXiv.2611.15477
+  url: "https://arxiv.org/abs/2611.15477"
